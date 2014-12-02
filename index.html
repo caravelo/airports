@@ -19,7 +19,7 @@
 <script>
 L.mapbox.accessToken = 'pk.eyJ1IjoiZmFjdWZhcmlhcyIsImEiOiJkTVZ4YnZVIn0.SC6sAHi49GzKTQNerslZWA';
 var map = L.mapbox.map('map', 'facufarias.kamfbc45')
-    .setView([38, -95], 4);
+    .setView([41, 2], 5);
 
 // Omnivore will AJAX-request this file behind the scenes and parse it:
 // note that there are considerations:
@@ -28,7 +28,7 @@ var map = L.mapbox.map('map', 'facufarias.kamfbc45')
 // - The file must either be on the same domain as the page that requests it,
 //   or both the server it is requested from and the user's browser must
 //   support CORS.
-omnivore.csv('en/Airports.csv').addTo(map);
+omnivore.csv('es/Airports.csv').addTo(map);
 </script>
 </body>
 </html>
