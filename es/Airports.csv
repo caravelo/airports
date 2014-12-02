@@ -20,7 +20,7 @@ SIJ,-18.933332,66.166664,IS,Siglufjordur,EU,airport,medium,0,BISI,Siglufjordur,I
 VEY,-20.277779,63.426388,IS,Vestmannaeyjar,EU,airport,medium,0,BIVM,Vestmannaeyjar,Islandia
 YAM,-84.49995,46.485302,CA,Sault Ste Marie,NA,airport,medium,-5,CYAM,Sault Sainte Marie,Canadá
 YAV,-123.3,48.86667,CA,Winnipeg St Andrews,NA,airport,medium,-6,CYAV,Winnipeg,Canadá
-YAW,,,CA,Shearwater,NA,heliport,null,-4,CYAW,Halifax,Canadá
+YAW,-63.499444,44.639721,CA,Shearwater,NA,heliport,null,-4,CYAW,Halifax,Canadá
 YAY,-55.583332,51.36667,CA,St Anthony,NA,airport,medium,-4,CYAY,San Antonio,Canadá
 YAZ,-125.77639,49.076942,CA,Tofino,NA,airport,medium,-8,CYAZ,Tofino,Canadá
 YBB,-89.85,68.88333,CA,Kugaaruk,NA,airport,medium,-6,CYBB,Pelly Bay,Canadá
@@ -124,7 +124,7 @@ YSB,-80.79592,46.62296,CA,Sudbury,NA,airport,medium,-5,CYSB,Sudbury,Canadá
 YSC,-71.9,45.416668,CA,Sherbrooke,NA,airport,medium,-5,CYSC,Sherbrooke,Canadá
 YSJ,-65.8902,45.32948,CA,Saint John,NA,airport,medium,-4,CYSJ,St. John,Canadá
 YSM,-111.96667,60.016666,CA,Fort Smith,NA,airport,medium,-7,CYSM,Fort Smith,Canadá
-YSR,,,CA,Nanisivik,NA,closed,null,-5,CYSR,Nanisivik,Canadá
+YSR,-84.613611,72.982222,CA,Nanisivik,NA,closed,null,-5,CYSR,Nanisivik,Canadá
 YSU,-57.983334,49,CA,Summerside,NA,airport,medium,-4,CYSU,Summerside,Canadá
 YSY,-125.24104,71.99145,CA,Sachs Harbour,NA,airport,medium,-7,CYSY,Sachs Harbour,Canadá
 YTE,-76.53333,64.23333,CA,Cape Dorset,NA,airport,medium,-5,CYTE,Cape Dorset,Canadá
@@ -196,7 +196,7 @@ ZFM,-134.95277,67.477776,CA,Fort Mcpherson,NA,airport,medium,-7,CZFM,Fort Mcpher
 BJA,5.083333,36.75,DZ,Soummam,AF,airport,medium,1,DAAE,Bejaja,Argelia
 ALG,3.21167,36.70058,DZ,Houari Boumediene,AF,airport,large,1,DAAG,Algier,Argelia
 DJG,9.488889,24.465279,DZ,Tiska,AF,airport,medium,1,DAAJ,Djanet,Argelia
-QFD,,,DZ,Boufarik,AF,airport,medium,1,DAAK,Boufarik,Argelia
+QFD,2.876111,36.545834,DZ,Boufarik,AF,airport,medium,1,DAAK,Boufarik,Argelia
 VVZ,8.55,26.533333,DZ,Illizi Takhamalt,AF,airport,medium,1,DAAP,Illizi,Argelia
 TMR,5.459167,22.814722,DZ,Tamanrasset,AF,airport,medium,1,DAAT,Tamanrasset,Argelia
 GJL,5.883333,36.8,DZ,Jijel,AF,airport,medium,1,DAAV,Jijel,Argelia
@@ -206,7 +206,7 @@ TEE,8.124067,35.428593,DZ,Cheikh Larbi Tebessi,AF,airport,medium,1,DABS,Tebessa,
 HRM,3.2,33.166668,DZ,Hassi R Mel,AF,airport,medium,1,DAFH,Tilrempt,Argelia
 TID,1.46946,35.343273,DZ,Bou Chekif,AF,airport,medium,1,DAOB,Tiaret,Argelia
 TIN,-8.163246,27.701162,DZ,Tindouf,AF,airport,medium,1,DAOF,Tindouf,Argelia
-QAS,,,DZ,Ech Cheliff,AF,airport,medium,1,DAOI,Ech-Cheliff,Argelia
+QAS,1.331775,36.212658,DZ,Ech Cheliff,AF,airport,medium,1,DAOI,Ech-Cheliff,Argelia
 TAF,-0.610556,35.627777,DZ,Tafaraoui,AF,airport,medium,1,DAOL,Oran,Argelia
 TLM,-1.45,35.016666,DZ,Zenata,AF,airport,medium,1,DAON,Tlemcen,Argelia
 ORN,-0.606108,35.620018,DZ,Es Senia,AF,airport,medium,1,DAOO,Oran,Argelia
@@ -241,7 +241,7 @@ AKR,5.083333,7.25,NG,Akure,AF,airport,medium,1,DNAK,Akure,Nigeria
 BNI,5.603863,6.316943,NG,Benin,AF,airport,medium,1,DNBE,Benin,Nigeria
 CBQ,8.347415,4.96889,NG,Calabar,AF,airport,medium,1,DNCA,Calabar,Nigeria
 ENU,7.56772,6.472048,NG,Enugu,AF,airport,medium,1,DNEN,Enugu,Nigeria
-QUS,,,NG,Gusau,AF,airport,medium,1,DNGU,Gusau,Nigeria
+QUS,6.696111,12.171667,NG,Gusau,AF,airport,medium,1,DNGU,Gusau,Nigeria
 IBA,3.976361,7.360181,NG,Ibadan,AF,airport,medium,1,DNIB,Ibadan,Nigeria
 ILR,4.533333,8.5,NG,Ilorin,AF,airport,medium,1,DNIL,Ilorin,Nigeria
 JOS,8.893056,9.868056,NG,Yakubu Gowon,AF,airport,medium,1,DNJO,Jos,Nigeria
@@ -284,7 +284,7 @@ ERF,10.961163,50.974915,DE,Erfurt,EU,airport,medium,1,EDDE,Erfurt,Alemania
 FRA,8.570773,50.050735,DE,Frankfurt Main,EU,airport,large,1,EDDF,Frankfurt,Alemania
 FMO,7.694928,52.130054,DE,Munster Osnabruck,EU,airport,large,1,EDDG,Munster,Alemania
 HAM,10.006414,53.63128,DE,Hamburg,EU,airport,large,1,EDDH,Hamburgo,Alemania
-THF,,,DE,Tempelhof,EU,closed,null,1,EDDI,Berlín,Alemania
+THF,13.403944,52.473025,DE,Tempelhof,EU,closed,null,1,EDDI,Berlín,Alemania
 CGN,7.122224,50.878365,DE,Koln Bonn,EU,airport,large,1,EDDK,Colonia,Alemania
 DUS,6.76558,51.278328,DE,Dusseldorf,EU,airport,large,1,EDDL,Duesseldorf,Alemania
 MUC,11.790143,48.353004,DE,Franz Josef Strauss,EU,airport,large,1,EDDM,Munich,Alemania
@@ -308,10 +308,10 @@ AGB,10.931667,48.425278,DE,Augsburg,EU,airport,medium,1,EDMA,Augsburg,Alemania
 OBF,11.283333,48.083332,DE,Oberpfaffenhofen,EU,airport,medium,1,EDMO,Oberpfaffenhofen,Alemania
 FDH,9.523482,47.672775,DE,Friedrichshafen,EU,airport,medium,1,EDNY,Friedrichshafen,Alemania
 SZW,11.790721,53.42529,DE,Schwerin Parchim,EU,airport,medium,1,EDOP,Parchim,Alemania
-ZSN,,,CA,Stendal Borstel,NA,airport,medium,1,EDOV,Stendal,Alemania
+ZSN,11.818333,52.627778,CA,Stendal Borstel,NA,airport,medium,1,EDOV,Stendal,Alemania
 BYU,11.64,49.985558,DE,Bayreuth,EU,airport,medium,1,EDQD,Bayreuth,Alemania
 HOQ,11.862222,50.289165,DE,Hof Plauen,EU,airport,medium,1,EDQM,Hof,Alemania
-ZQL,,,DE,Donaueschingen Villingen,EU,airport,medium,1,EDTD,Donaueschingen,Alemania
+ZQL,8.522223,47.973331,DE,Donaueschingen Villingen,EU,airport,medium,1,EDTD,Donaueschingen,Alemania
 BWE,10.533333,52.266666,DE,Braunschweig Wolfsburg,EU,airport,medium,1,EDVE,Braunschweig,Alemania
 KSF,9.376578,51.40568,DE,Kassel Calden,EU,airport,medium,1,EDVK,Kassel,Alemania
 BRV,8.916667,53.75,DE,Bremerhaven,EU,airport,small,1,EDWB,Bremerhaven,Alemania
@@ -422,7 +422,7 @@ FFD,-1.783333,51.733334,GB,Fairford,EU,airport,large,0,EGVA,Pozuelo de Alarcón,
 BZZ,-1.587093,51.75,GB,Brize Norton,EU,airport,large,0,EGVN,Brize Norton,Reino Unido
 ODH,-0.95,51.25,GB,Odiham,EU,airport,medium,0,EGVO,Odiham,Reino Unido
 NHT,-0.366667,51.533333,GB,Northolt,EU,airport,medium,0,EGWU,Northolt,Reino Unido
-QCY,,,GB,Coningsby,EU,airport,medium,0,EGXC,Coningsby,Reino Unido
+QCY,-0.166014,53.093014,GB,Coningsby,EU,airport,medium,0,EGXC,Coningsby,Reino Unido
 BEQ,0.766667,52.35,GB,Honington,EU,airport,medium,0,EGXH,Honington,Reino Unido
 WTN,-0.516667,53.166668,GB,Waddington,EU,airport,medium,0,EGXW,Waddington,Reino Unido
 MPN,-58.45,-51.816666,FK,Mount Pleasant,SA,airport,medium,-4,EGYP,Mount Pleasant,Islas Malvinas
@@ -433,9 +433,9 @@ GRQ,6.575556,53.120277,NL,Eelde,EU,airport,medium,1,EHGG,Groningen,Países Bajos
 DHR,4.75,52.95,NL,De Kooy,EU,airport,medium,1,EHKD,De Kooy,Países Bajos
 LWR,5.8,53.25,NL,Leeuwarden,EU,airport,medium,1,EHLW,Leeuwarden,Países Bajos
 RTM,4.433606,51.948948,NL,Rotterdam,EU,airport,medium,1,EHRD,Rotterdam,Países Bajos
-UTC,,,NL,Soesterberg,EU,closed,null,1,EHSB,Soesterberg,Países Bajos
+UTC,5.27619,52.1273,NL,Soesterberg,EU,closed,null,1,EHSB,Soesterberg,Países Bajos
 ENS,6.878333,52.271667,NL,Twenthe,EU,airport,medium,1,EHTW,Enschede,Países Bajos
-LID,,,NL,Valkenburg,EU,closed,null,1,EHVB,Valkenburg,Países Bajos
+LID,4.417944,52.166139,NL,Valkenburg,EU,closed,null,1,EHVB,Valkenburg,Países Bajos
 WOE,4.335,51.435833,NL,Woensdrecht,EU,airport,medium,1,EHWO,Woensdrecht,Países Bajos
 ORK,-8.48914,51.846645,IE,Cork,EU,airport,large,0,EICK,Corcho,Irlanda
 GWY,-9.033333,53.283333,IE,Galway,EU,airport,medium,0,EICM,Galway,Irlanda
@@ -499,7 +499,7 @@ KTW,19.07403,50.470833,PL,Pyrzowice,EU,airport,medium,1,EPKT,Katowice,Polonia
 POZ,16.828844,52.414326,PL,Lawica,EU,airport,medium,1,EPPO,Poznan,Polonia
 RZE,22.03133,50.11525,PL,Jasionka,EU,airport,medium,1,EPRZ,Rzeszow,Polonia
 SZZ,14.894611,53.593525,PL,Goleniow,EU,airport,medium,1,EPSC,Szczecin,Polonia
-OSP,,,PL,Redzikowo,EU,closed,null,1,EPSK,Slupsk,Polonia
+OSP,17.1075,54.478889,PL,Redzikowo,EU,closed,null,1,EPSK,Slupsk,Polonia
 WAW,20.97329,52.170906,PL,Okecie,EU,airport,large,1,EPWA,Varsovia,Polonia
 WRO,16.899403,51.10482,PL,Strachowice,EU,airport,medium,1,EPWR,Wroclaw,Polonia
 IEG,15.516667,51.933334,PL,Babimost,EU,airport,medium,1,EPZG,Zielona Gora,Polonia
@@ -521,7 +521,7 @@ HAD,12.815005,56.680935,SE,Halmstad,EU,airport,medium,1,ESMT,Halmstad,Suecia
 VXO,14.732046,56.925095,SE,Kronoberg,EU,airport,medium,1,ESMX,Växjö,Suecia
 EVG,14.35,62.033333,SE,Sveg,EU,airport,medium,1,ESND,Sveg,Suecia
 GEV,20.816668,67.134445,SE,Gallivare,EU,airport,medium,1,ESNG,Gallivare,Suecia
-HUV,,,SE,Hudiksvall,EU,closed,null,1,ESNH,Hudiksvall,Suecia
+HUV,17.080719,61.768092,SE,Hudiksvall,EU,closed,null,1,ESNH,Hudiksvall,Suecia
 KRF,17.772778,63.049442,SE,Kramfors Solleftea,EU,airport,medium,1,ESNK,Kramfors,Suecia
 LYC,18.70967,64.55071,SE,Lycksele,EU,airport,medium,1,ESNL,Lycksele,Suecia
 SDL,17.438147,62.52165,SE,Sundsvall Harnosand,EU,airport,medium,1,ESNN,Sundsvall,Suecia
@@ -544,8 +544,8 @@ NRK,16.232393,58.583298,SE,Kungsangen,EU,airport,medium,1,ESSP,Norrkoeping,Sueci
 VBY,18.338154,57.660446,SE,Visby,EU,airport,medium,1,ESSV,Visby,Suecia
 SPM,6.835917,50.06547,DE,Spangdahlem Ab,EU,airport,medium,1,ETAD,Spangdahlem,Alemania
 RMS,7.599187,49.439938,DE,Ramstein Ab,EU,airport,large,1,ETAR,Ramstein,Alemania
-ZCN,,,DE,Celle,EU,airport,medium,1,ETHC,Celle,Alemania
-ZNF,,,DE,Hanau Aaf,EU,airport,small,1,ETID,Hanau,Alemania
+ZCN,10.022133,52.5912,DE,Celle,EU,airport,medium,1,ETHC,Celle,Alemania
+ZNF,8.961586,50.169189,DE,Hanau Aaf,EU,airport,small,1,ETID,Hanau,Alemania
 GKE,6.133333,50.966667,DE,Geilenkirchen,EU,airport,medium,1,ETNG,Geilenkirchen,Alemania
 RLG,12.266667,53.92,DE,Laage,EU,airport,medium,1,ETNL,Laage,Alemania
 FEL,11.266667,48.2,DE,Furstenfeldbruck,EU,airport,medium,1,ETSF,Fuerstenfeldbruck,Alemania
@@ -908,7 +908,7 @@ ANG,0.216667,45.733334,FR,Brie Champniers,EU,airport,medium,1,LFBU,Angouleme,Fra
 BVE,1.533333,45.166668,FR,La Roche,EU,airport,large,1,LFBV,Brive,Francia
 PGX,0.716667,45.183334,FR,Bassillac,EU,airport,medium,1,LFBX,Perigueux,Francia
 BIQ,-1.531242,43.472416,FR,Anglet,EU,airport,medium,1,LFBZ,Biarritz-bayona,Francia
-XAC,,,FR,La Teste De Buch,EU,airport,medium,1,LFCH,Arcachon,Francia
+XAC,-1.110833,44.59639,FR,La Teste De Buch,EU,airport,medium,1,LFCH,Arcachon,Francia
 LBI,2.15,43.933334,FR,Le Sequestre,EU,airport,medium,1,LFCI,Albi,Francia
 DCM,2.284167,43.555832,FR,Mazamet,EU,airport,medium,1,LFCK,Castres,Francia
 RDZ,2.483866,44.410595,FR,Marcillac,EU,airport,medium,1,LFCR,Rodez,Francia
@@ -928,9 +928,9 @@ AUF,3.5,47.85,FR,Branches,EU,airport,medium,1,LFLA,Auxerre,Francia
 CMF,5.88437,45.637993,FR,Aix Les Bains,EU,airport,medium,1,LFLB,Chambery,Francia
 CFE,3.163893,45.78032,FR,Auvergne,EU,airport,medium,1,LFLC,Clermont-Ferrand,Francia
 BOU,2.416667,47.15,FR,Bourges,EU,airport,medium,1,LFLD,Bourges,Francia
-QNJ,,,FR,Annemasse,EU,airport,medium,1,LFLI,Annemasse,Francia
+QNJ,6.268386,46.191972,FR,Annemasse,EU,airport,medium,1,LFLI,Annemasse,Francia
 LYS,5.080334,45.721424,FR,Saint Exupery,EU,airport,medium,1,LFLL,Lyon,Francia
-QNX,,,FR,Charnay,EU,airport,medium,1,LFLM,Macon,Francia
+QNX,4.795767,46.295103,FR,Charnay,EU,airport,medium,1,LFLM,Macon,Francia
 RNE,4.000833,46.053333,FR,Renaison,EU,airport,medium,1,LFLO,Roanne,Francia
 NCY,6.100833,45.930557,FR,Meythet,EU,airport,medium,1,LFLP,Annecy,Francia
 GNB,5.332019,45.359833,FR,Saint Geoirs,EU,airport,medium,1,LFLS,Grenoble,Francia
@@ -965,7 +965,7 @@ CDG,2.567023,49.003197,FR,Charles De Gaulle,EU,airport,large,1,LFPG,París,Franc
 TNF,2.113056,48.75083,FR,Toussus Le Noble,EU,airport,medium,1,LFPN,Toussous-le-noble,Francia
 ORY,2.3597,48.728283,FR,Orly,EU,airport,large,1,LFPO,París,Francia
 POX,2.1,49.05,FR,Cormeilles En Vexin,EU,airport,medium,1,LFPT,Pontoise,Francia
-QYR,,,FR,Barberey,EU,airport,medium,1,LFQB,Troyes,Francia
+QYR,4.016703,48.322136,FR,Barberey,EU,airport,medium,1,LFQB,Troyes,Francia
 NVS,3.15,47,FR,Fourchambault,EU,airport,medium,1,LFQG,Nevers,Francia
 LIL,3.106067,50.57205,FR,Lesquin,EU,airport,medium,1,LFQQ,Lille,Francia
 BES,-4.415827,48.445374,FR,Guipavas,EU,airport,medium,1,LFRB,Brest,Francia
@@ -1056,7 +1056,7 @@ ALL,8.216667,44.05,IT,Albenga,EU,airport,medium,1,LIMG,Albenga,Italia
 GOA,8.85081,44.415066,IT,Genova Sestri,EU,airport,large,1,LIMJ,Génova,Italia
 LIN,9.279157,45.460957,IT,Linate,EU,airport,large,1,LIML,Milán,Italia
 PMF,10.295278,44.822224,IT,Parma,EU,airport,medium,1,LIMP,Parma,Italia
-QPZ,,,IT,Piacenza,EU,airport,medium,1,LIMS,Piacenza,Italia
+QPZ,9.723333,44.913055,IT,Piacenza,EU,airport,medium,1,LIMS,Piacenza,Italia
 CUF,7.6175,44.53528,IT,Levaldigi,EU,airport,medium,1,LIMZ,Cuneo,Italia
 AVB,12.6,46.033333,IT,Aviano Ab,EU,airport,medium,1,LIPA,Aviano,Italia
 BZO,11.330511,46.462444,IT,Bolzano,EU,airport,medium,1,LIPB,Bolzano,Italia
@@ -1067,14 +1067,14 @@ VBS,10.326545,45.425446,IT,Montichiari,EU,airport,medium,1,LIPO,Brescia,Italia
 TRS,13.485678,45.82078,IT,Ronchi Dei Legionari,EU,airport,medium,1,LIPQ,Ronchi De Legionari,Italia
 RMI,12.619594,44.022953,IT,Rimini,EU,airport,medium,1,LIPR,Rimini,Italia
 VIC,11.55,45.55,IT,Vicenza,EU,airport,medium,1,LIPT,Vicenza,Italia
-QPA,,,IT,Padova,EU,airport,medium,1,LIPU,Padova,Italia
+QPA,11.847903,45.395767,IT,Padova,EU,airport,medium,1,LIPU,Padova,Italia
 VRN,10.906796,45.40233,IT,Villafranca,EU,airport,large,1,LIPX,Villafranca,Italia
 VCE,12.337947,45.502285,IT,Venezia Tessera,EU,airport,large,1,LIPZ,Venecia,Italia
 SAY,11.25,43.25,IT,Ampugnano,EU,airport,medium,1,LIQS,Siena,Italia
 CIA,12.590987,41.799065,IT,Ciampino,EU,airport,large,1,LIRA,Roma,Italia
 FCO,12.250346,41.794594,IT,Fiumicino,EU,airport,large,1,LIRF,Roma,Italia
 EBA,10.240409,42.763103,IT,Marina Di Campo,EU,airport,medium,1,LIRJ,Marina Di Campo,Italia
-QLT,,,IT,Latina,EU,airport,medium,1,LIRL,Latina,Italia
+QLT,12.909019,41.542436,IT,Latina,EU,airport,medium,1,LIRL,Latina,Italia
 NAP,14.291667,40.886112,IT,Capodichino,EU,airport,large,1,LIRN,Nápoles,Italia
 PSA,10.399915,43.69871,IT,Pisa,EU,airport,large,1,LIRP,Pisa,Italia
 FLR,11.201989,43.802128,IT,Firenze,EU,airport,medium,1,LIRQ,Florencia,Italia
@@ -1098,7 +1098,7 @@ VDA,34.9339,29.952015,IL,Ovda,AS,airport,large,2,LLOV,Ovda,Israel
 SDV,34.787857,32.104885,IL,Sde Dov,AS,airport,medium,2,LLSD,Tel-aviv,Israel
 MLA,14.495401,35.849777,MT,Luqa,EU,airport,large,1,LMML,Malta,Malta
 GRZ,15.444928,46.994125,AT,Graz,EU,airport,medium,1,LOWG,Graz,Austria
-INN,,,GL,Innsbruck,NA,heliport,null,1,LOWI,Innsbruck,Austria
+INN,11.343964,47.260219,GL,Innsbruck,NA,heliport,null,1,LOWI,Innsbruck,Austria
 LNZ,14.193345,48.23987,AT,Linz,EU,airport,medium,1,LOWL,Linz,Austria
 SZG,12.997331,47.791225,AT,Salzburg,EU,airport,medium,1,LOWS,Salzburgo,Austria
 VIE,16.563583,48.11972,AT,Schwechat,EU,airport,large,1,LOWW,Viena,Austria
@@ -1248,8 +1248,8 @@ NLD,-99.566666,27.434723,MX,Quetzalcoatl Intl,NA,airport,medium,-6,MMNL,Nuevo La
 OAX,-96.721634,17.000883,MX,Xoxocotlan Intl,NA,airport,medium,-6,MMOX,Oaxaca,México
 PAZ,-97.467224,20.516666,MX,Tajin,NA,airport,medium,-6,MMPA,Poza Rico,México
 PBC,-98.3675,19.135,MX,Hermanos Serdan Intl,NA,airport,medium,-6,MMPB,Puebla,México
-PCA,,,US,Ingeniero Juan Guillermo Villasana,NA,heliport,null,-6,MMPC,Pachuca,México
-PPE,,,MX,Puerto Penasco,NA,closed,null,-7,MMPE,Punta Peñasco,México
+PCA,-98.782814,20.0772,US,Ingeniero Juan Guillermo Villasana,NA,heliport,null,-6,MMPC,Pachuca,México
+PPE,-113.525728,31.351878,MX,Puerto Penasco,NA,closed,null,-7,MMPE,Punta Peñasco,México
 PDS,-100.53604,28.628948,MX,Piedras Negras Intl,NA,airport,medium,-6,MMPG,Piedras Negras,México
 UPN,-102.04722,19.411112,MX,Licenciado Y Gen Ignacio Lopez Rayon,NA,airport,medium,-6,MMPN,Uruapan,México
 PVR,-105.24898,20.678297,MX,Licenciado Gustavo Diaz Ordaz Intl,NA,airport,large,-6,MMPR,Puerto Vallarta,México
@@ -1456,7 +1456,7 @@ XBJ,59.25499,32.89905,IR,Birjand,AS,airport,medium,4,OIMB,Birjand,Irán
 WSY,148.75278,-20.502777,AU,Whitsunday Airstrip,OC,airport,small,10,YWHI,Airlie Beach,Australia
 RZR,50.68244,36.904625,IR,Ramsar,AS,airport,medium,4,OINR,Ramsar,Irán
 SYZ,52.58997,29.54613,IR,Shiraz Shahid Dastghaib Intl,AS,airport,large,4,OISS,Shiraz,Irán
-QSA,,,ES,Sabadell Airport,EU,airport,small,1,LELL,Sabadell,España
+QSA,2.10508,41.5209,ES,Sabadell Airport,EU,airport,small,1,LELL,Sabadell,España
 TBZ,46.244274,38.12285,IR,Tabriz Intl,AS,airport,large,4,OITT,Tabriz,Irán
 AZD,54.283264,31.903603,IR,Yazd Shahid Sadooghi,AS,airport,medium,4,OIYY,Yazd,Irán
 ZBR,60.379562,25.436478,IR,Chah Bahar,AS,airport,medium,4,OIZC,Chah Bahar,Irán
@@ -1606,7 +1606,7 @@ TAE,128.63788,35.899254,KR,Daegu Ab,AS,airport,medium,9,RKTN,Taegu,Corea del Sur
 YEC,128.355,36.625,KR,Yecheon,AS,airport,medium,9,RKTY,Yechon,Corea del Sur
 OKA,127.645836,26.195833,JP,Naha,AS,airport,large,9,ROAH,Okinawa,Japón
 DNA,127.76667,26.35,JP,Kadena Ab,AS,airport,large,9,RODN,Kadena,Japón
-ISG,,,CO,Ishigaki,SA,heliport,null,9,ROIG,Ishigaki,Japón
+ISG,124.186983,24.344525,CO,Ishigaki,SA,heliport,null,9,ROIG,Ishigaki,Japón
 UEO,126.719444,26.365278,JP,Kumejima,AS,airport,medium,9,ROKJ,Kumejima,Japón
 MMD,131.24722,25.841389,JP,Minami Daito,AS,airport,medium,9,ROMD,Minami Daito,Japón
 MMY,125.29778,24.779198,JP,Miyako,AS,airport,medium,9,ROMY,Miyako,Japón
@@ -1762,7 +1762,7 @@ UBA,-47.958332,-19.776388,BR,Uberaba,SA,airport,medium,-3,SBUR,Uberaba,Brasil
 VAG,-45.47395,-21.588886,BR,Major Brigadeiro Trompowsky,SA,airport,medium,-3,SBVG,Varginha,Brasil
 BVH,-60.11667,-12.716667,BR,Vilhena,SA,airport,medium,-4,SBVH,Vilhena,Brasil
 VIX,-40.289566,-20.25681,BR,Goiabeiras,SA,airport,medium,-3,SBVT,Vitoria,Brasil
-QPS,,,BR,Campo Fontenelle,SA,airport,medium,-3,SBYS,Piracununga,Brasil
+QPS,-47.334764,-21.984561,BR,Campo Fontenelle,SA,airport,medium,-3,SBYS,Piracununga,Brasil
 ARI,-70.335556,-18.349766,CL,Chacalluta,SA,airport,medium,-4,SCAR,Arica,Chile
 BBA,-71.695,-45.916668,CL,Balmaceda,SA,airport,medium,-3,SCBA,Balmaceda,Chile
 CCH,-71.7,-46.55,CL,Chile Chico,SA,airport,medium,-3,SCCC,Chile Chico,Chile
@@ -2002,7 +2002,7 @@ KRW,53.012672,40.056156,TM,Turkmenbashi,AS,airport,medium,5,UTAK,Krasnovodsk,Tur
 DYU,68.81728,38.54894,TJ,Dushanbe,AS,airport,medium,5,UTDD,Dushanbe,Tayikistán
 BHK,64.47479,39.76037,UZ,Bukhara,AS,airport,medium,5,UTSB,Bukhara,Uzbekistán
 SKD,66.99085,39.696217,UZ,Samarkand,AS,airport,medium,5,UTSS,Samarcanda,Uzbekistán
-IUD,,,QA,Al Udeid AB,AS,airport,medium,3,OTBH,Doha,Katar
+IUD,51.3228,25.1174,QA,Al Udeid AB,AS,airport,medium,3,OTBH,Doha,Katar
 TAS,69.26619,41.262714,UZ,Yuzhny,AS,airport,large,5,UTTT,Tashkent,Uzbekistán
 BZK,34.333332,53.266666,RU,Bryansk,EU,airport,medium,4,UUBP,Bryansk,Rusia
 SVO,37.416573,55.966324,RU,Sheremetyevo,EU,airport,large,4,UUEE,Moscú,Rusia
@@ -2051,7 +2051,7 @@ KIK,44.283333,35.516666,IQ,Kirkuk AB,AS,airport,medium,3,ORKK,Kirkuk,Irak
 PNH,104.84778,11.546111,KH,Phnom Penh Intl,AS,airport,large,7,VDPP,Phnom Penh,Camboya
 REP,103.815926,13.408436,KH,Siem Reap,AS,airport,large,7,VDSR,Siem-cosechar,Camboya
 IXA,91.244514,23.8926,IN,Agartala,AS,airport,medium,5.5,VEAT,Agartala,India
-AJL,,,IN,Aizawl,AS,closed,null,5.5,VEAZ,Aizwal,India
+AJL,92.802767,23.746603,IN,Aizawl,AS,closed,null,5.5,VEAZ,Aizwal,India
 IXB,88.324814,26.68488,IN,Bagdogra,AS,airport,medium,5.5,VEBD,Baghdogra,India
 BBI,85.81738,20.252853,IN,Bhubaneshwar,AS,airport,medium,6,VEBS,Bhubaneswar,India
 CCU,88.43931,22.64531,IN,Netaji Subhash Chandra Bose Intl,AS,airport,large,5.5,VECC,Kolkata,India
@@ -2431,9 +2431,9 @@ SHV,-93.828384,32.45471,US,Shreveport Rgnl,NA,airport,large,-6,KSHV,Shreveport,E
 CDV,-145.47,60.493057,US,Merle K Mudhole Smith,NA,airport,medium,-9,PACV,Córdoba,Estados Unidos
 ORF,-76.20629,36.898582,US,Norfolk Intl,NA,airport,large,-5,KORF,Norfolk,Estados Unidos
 BPT,-94.02,29.950832,US,Southeast Texas Rgnl,NA,airport,medium,-6,KBPT,Beaumont,Estados Unidos
-SAV,,,GL,Savannah Hilton Head Intl,NA,heliport,null,-5,KSAV,Sabana,Estados Unidos
+SAV,-81.202139,32.127583,GL,Savannah Hilton Head Intl,NA,heliport,null,-5,KSAV,Sabana,Estados Unidos
 OME,-165.44167,64.51139,US,Nome,NA,airport,medium,-9,PAOM,Nome,Estados Unidos
-SPB,,,VI,Scappoose Industrial Airpark,NA,seaplanes,null,-8,KSPB,San Luis,Estados Unidos
+SPB,-122.861833,45.771028,VI,Scappoose Industrial Airpark,NA,seaplanes,null,-8,KSPB,San Luis,Estados Unidos
 PIE,-82.69511,27.912004,US,St Petersburg Clearwater Intl,NA,airport,medium,-5,KPIE,San Petersburgo,Estados Unidos
 SCC,-148.46011,70.203636,US,Deadhorse,NA,airport,medium,-9,PASC,Deadhorse,Estados Unidos
 SAT,-98.47264,29.524937,US,San Antonio Intl,NA,airport,large,-6,KSAT,San Antonio,Estados Unidos
@@ -2495,7 +2495,7 @@ MKE,-87.90267,42.948093,US,General Mitchell Intl,NA,airport,large,-6,KMKE,Milwau
 ABI,-99.679726,32.409443,US,Abilene Rgnl,NA,airport,medium,-6,KABI,Abilene,Estados Unidos
 COU,-92.21917,38.81361,US,Columbia Rgnl,NA,airport,medium,-6,KCOU,Columbia,Estados Unidos
 PDX,-122.5929,45.588997,US,Portland Intl,NA,airport,large,-8,KPDX,Portland,Estados Unidos
-TNT,,,GL,Dade Collier Training And Transition,NA,heliport,null,-5,KTNT,Miami,Estados Unidos
+TNT,-80.897,25.861806,GL,Dade Collier Training And Transition,NA,heliport,null,-5,KTNT,Miami,Estados Unidos
 PBI,-80.09044,26.688885,US,Palm Beach Intl,NA,airport,large,-5,KPBI,West Palm Beach,Estados Unidos
 FTW,-97.333336,32.75,US,Fort Worth Meacham Intl,NA,airport,large,-6,KFTW,Fort Worth,Estados Unidos
 BFI,-122.3037,47.5371,US,Boeing Fld King Co Intl,NA,airport,large,-8,KBFI,Seattle,Estados Unidos
@@ -2644,7 +2644,7 @@ DAB,-81.06083,29.185192,US,Daytona Beach Intl,NA,airport,medium,-5,KDAB,Daytona 
 LPX,21.1,56.516666,LV,Liepaja Intl,EU,airport,medium,2,EVLA,Liepaja,Letonia
 RIX,23.979807,56.92208,LV,Riga Intl,EU,airport,large,2,EVRA,Riga,Letonia
 SQQ,23.39311,55.89529,LT,Siauliai Intl,EU,airport,medium,2,EYSA,Siauliai,Lituania
-HLJ,,,LT,Barysiai,EU,airport,medium,2,EYSB,Barysiai,Lituania
+HLJ,23.558056,56.070556,LT,Barysiai,EU,airport,medium,2,EYSB,Barysiai,Lituania
 KUN,23.916668,54.9,LT,Kaunas Intl,EU,airport,medium,2,EYKA,Kaunas,Lituania
 PLQ,21.083332,55.95,LT,Palanga Intl,EU,airport,medium,2,EYPA,Palanga,Lituania
 VNO,25.279606,54.643078,LT,Vilnius Intl,EU,airport,large,2,EYVI,Vilnius,Lituania
@@ -2654,7 +2654,7 @@ LWN,43.833332,40.716667,AM,Gyumri,AS,airport,medium,4,UDSG,Gyumri,Armenia
 ASA,42.638332,13.07,ER,Assab Intl,AF,airport,medium,3,HHSB,Assab,Eritrea
 ASM,38.91028,15.291111,ER,Asmara Intl,AF,airport,medium,3,HHAS,Asmara,Eritrea
 MSW,39.441113,15.603333,ER,Massawa Intl,AF,airport,medium,3,HHMS,Massawa,Eritrea
-GZA,,,PS,Yasser Arafat Intl,AS,closed,null,2,LVGZ,Gaza,Palestina
+GZA,34.276111,31.246389,PS,Yasser Arafat Intl,AS,closed,null,2,LVGZ,Gaza,Palestina
 RIY,49.373684,14.666999,YE,Riyan,AS,airport,medium,3,OYRN,Mukalla,Yemen
 BUS,41.600555,41.610832,GE,Batumi,AS,airport,medium,2,UGSB,Batumi,Georgia
 KUT,42.7,42.25,GE,Kopitnari,AS,airport,medium,4,UGKO,Kutaisi,Georgia
@@ -2675,15 +2675,15 @@ EMD,148.1744,-23.56861,AU,Emerald,OC,airport,medium,10,YEML,Esmeralda,Australia
 KIX,135.24397,34.43533,JP,Kansai,AS,airport,large,9,RJBB,Osaka,Japón
 TAG,123.853615,9.657587,PH,Tagbilaran,AS,airport,medium,8,RPVT,Tagbilaran,Filipinas
 JAV,-51.05991,69.24186,GL,Ilulissat,NA,airport,small,-3,BGJN,Ilulissat,Groenlandia
-JCH,,,GL,Qasigiannguit,NA,heliport,null,-3,BGCH,Qasigiannguit,Groenlandia
+JCH,-51,68.833336,GL,Qasigiannguit,NA,heliport,null,-3,BGCH,Qasigiannguit,Groenlandia
 JEG,-52.75,68.7,GL,Aasiaat,NA,airport,medium,-3,BGEM,Aasiaat,Groenlandia
 PMI,2.730388,39.547653,ES,Son Sant Joan,EU,airport,large,1,LEPA,Palma de Mallorca,España
 DRW,130.87752,-12.407805,AU,Darwin Intl,OC,airport,medium,9.5,YPDN,Darwin,Australia
 URT,99.143196,9.133865,TH,Surat Thani,AS,airport,medium,7,VTSB,Surat Thani,Tailandia
 NYU,94.92832,21.175343,MM,Bagan Intl,AS,airport,small,6.5,VYBR,Nyuang U,Birmania
 MPH,121.9521,11.925263,PH,Godofredo P,AS,airport,medium,8,RPXE,Caticlan,Filipinas
-NSB,,,BS,Bimini North Seaplane Base,NA,seaplanes,null,-5,\\N,Bimini,Bahamas
-GZM,,,MT,Xewkija Heliport,EU,heliport,null,1,LMMG,Gozo,Malta
+NSB,-79.25,25.767,BS,Bimini North Seaplane Base,NA,seaplanes,null,-5,\\N,Bimini,Bahamas
+GZM,14.272778,36.027222,MT,Xewkija Heliport,EU,heliport,null,1,LMMG,Gozo,Malta
 HVN,-72.888336,41.265278,US,Tweed-New Haven Airport,NA,airport,medium,-5,KHVN,New Haven,Estados Unidos
 AVL,-82.537315,35.43508,US,Asheville Regional Airport,NA,airport,large,-5,KAVL,Asheville,Estados Unidos
 GSO,-79.9373,36.105324,US,Piedmont Triad,NA,airport,large,-5,KGSO,Greensboro,Estados Unidos
@@ -2709,7 +2709,7 @@ RFD,-89.222115,42.30364,US,Chicago Rockford International Airport,NA,airport,lar
 DME,37.899494,55.414566,RU,Domododevo,EU,airport,large,4,UUDD,Moscú,Rusia
 SYX,109.409706,18.31063,CN,Phoenix International,AS,airport,large,8,ZJSY,Sanya,China
 MFN,167.91112,-44.669445,NZ,Milford Sound Airport,OC,airport,small,12,NZMF,Milford Sound,Nueva Zelanda
-TSS,,,US,East 34th Street Heliport,NA,heliport,null,-5,NONE,Nueva York,Estados Unidos
+TSS,-73.971944,40.7425,US,East 34th Street Heliport,NA,heliport,null,-5,NONE,Nueva York,Estados Unidos
 LJG,100.25,26.683332,CN,Lijiang Airport,AS,airport,medium,8,ZPLJ,Lijiang,China
 GSP,-82.21706,34.890568,US,Greenville-Spartanburg International,NA,airport,large,-5,KGSP,Greenville,Estados Unidos
 BMI,-88.91483,40.48401,US,Central Illinois Rgnl,NA,airport,large,-6,KBMI,Bloomington,Estados Unidos
@@ -2769,8 +2769,8 @@ KBZ,173.68333,-42.416668,NZ,Kaikoura,OC,airport,small,12,NZKI,Kaikoura,Nueva Zel
 RDM,-121.162895,44.254272,US,Roberts Fld,NA,airport,medium,-8,KRDM,Redmond-Doble,Estados Unidos
 PCN,174.03334,-41.35,NZ,Koromiko,OC,airport,small,12,NZPN,Picton,Nueva Zelanda
 WDH,17.463202,-22.487345,NA,Windhoek Hosea Kutako International Airport,AF,airport,medium,1,FYWV,Windhoek,Namibia
-YWH,,,CA,Victoria Inner Harbour Airport,NA,seaplanes,null,-8,CYWH,Victoria,Canadá
-CXH,,,CA,Vancouver Coal Harbour,NA,seaplanes,null,-8,CAQ3,Vancouver,Canadá
+YWH,-123.3875,48.422778,CA,Victoria Inner Harbour Airport,NA,seaplanes,null,-8,CYWH,Victoria,Canadá
+CXH,-123.115833,49.289722,CA,Vancouver Coal Harbour,NA,seaplanes,null,-8,CAQ3,Vancouver,Canadá
 TNA,117.20688,36.85769,CN,Jinan,AS,airport,large,8,ZSJN,Jinan,China
 CZX,119.77976,31.914116,CN,Changzhou,AS,airport,small,8,ZSCG,Changzhou,China
 YBP,104.54395,28.797659,CN,Yibin,AS,airport,small,8,ZUYB,Yibin,China
@@ -2861,7 +2861,7 @@ MSO,-114.08321,46.918964,US,Missoula Intl,NA,airport,medium,-7,KMSO,Missoula,Est
 BKQ,145.42833,-24.434168,AU,Blackall,OC,airport,medium,10,YBCK,Blackall,Australia
 BDB,152.32187,-24.898708,AU,Bundaberg,OC,airport,medium,10,YBUD,Bundaberg,Australia
 GCN,-112.1475,35.951942,US,Grand Canyon National Park Airport,NA,airport,medium,-7,KGCN,Gran Cañón,Estados Unidos
-HIS,,,AU,Hayman Island Airport,OC,seaplanes,null,10,YHYN,Hayman Island,Australia
+HIS,148.86667,-20.066668,AU,Hayman Island Airport,OC,seaplanes,null,10,YHYN,Hayman Island,Australia
 APA,-104.84872,39.572124,US,Centennial,NA,airport,medium,-7,KAPA,Denver,Estados Unidos
 LRU,-106.92167,32.290833,US,Las Cruces Intl,NA,airport,medium,-7,KLRU,Las Cruces,Estados Unidos
 TPL,-97.409164,31.150278,US,Draughon Miller Central Texas Rgnl,NA,airport,medium,-6,KTPL,Templo,Estados Unidos
@@ -2925,7 +2925,7 @@ MEH,27.833332,71.03333,NO,Mehamn,EU,airport,medium,1,ENMR,Mehamn,Noruega
 VDS,29.845278,70.065,NO,Airport,EU,airport,medium,1,ENVD,Vadso,Noruega
 IKA,51.1548,35.40863,IR,Imam Khomeini,AS,airport,large,3.5,OIIE,Teherán,Irán
 MHD,59.64165,36.227173,IR,Mashhad,AS,airport,large,3.5,OIMM,Mashhad,Irán
-QEF,,,DE,Egelsbach,EU,airport,medium,1,\\N,Egelsbach,Alemania
+QEF,8.64361,49.9608,DE,Egelsbach,EU,airport,medium,1,\\N,Egelsbach,Alemania
 UIK,102.55,58.13333,RU,Ust-Ilimsk,AS,airport,small,9,UIBS,Ust Ilimsk,Rusia
 MDG,129.58385,44.534943,CN,Mudanjiang,AS,airport,medium,8,\\N,Mudanjiang,China
 MEI,-88.74917,32.337223,US,Key Field,NA,airport,medium,-6,KMEI,Meridiano,Estados Unidos
@@ -2938,7 +2938,7 @@ ISC,-6.291667,49.913334,GB,ISLES OF SCILLY,EU,airport,medium,0,\\N,ST MARY \\\\ 
 SGF,-93.38226,37.24237,US,Springfield Branson Natl,NA,airport,large,-6,KSGF,Springfield,Estados Unidos
 NVK,17.425,68.425,NO,Framnes,EU,airport,medium,1,ENNK,Narvik,Noruega
 BVG,29,70.86667,NO,Berlevag,EU,airport,medium,1,ENBV,Berlevag,Noruega
-FBU,,,NO,Fornebu,EU,closed,null,1,ENFB,Oslo,Noruega
+FBU,10.616667,59.883333,NO,Fornebu,EU,closed,null,1,ENFB,Oslo,Noruega
 NSK,87.339806,69.32312,RU,Alykel,AS,airport,medium,8,UOOO,Norilsk,Rusia
 AAQ,37.3466,45.00166,RU,Vityazevo,EU,airport,medium,4,URKA,Anapa,Rusia
 JLN,-94.49778,37.149723,US,Joplin Rgnl,NA,airport,large,-6,KJLN,Joplin,Estados Unidos
@@ -2973,7 +2973,7 @@ FDE,5.762073,61.39178,NO,Forde Bringeland,EU,airport,small,1,\\N,Forde,Noruega
 PYJ,112.05,66.416664,RU,Poliarny Airport,AS,airport,medium,10,UERP,Yakutia,Rusia
 NAJ,45.45889,39.190277,AZ,Nakhchivan Airport,AS,airport,medium,3.5,UBBN,Nakhchivan,Azerbaiyán
 KVD,46.316666,40.733334,AZ,Ganja Airport,AS,airport,medium,4,UBBG,Ganja,Azerbaiyán
-UKK,,,GL,Ust Kamenogorsk Airport,NA,heliport,null,6,UASK,Ust Kamenogorsk,Kazajstán
+UKK,82.4942,50.0366,GL,Ust Kamenogorsk Airport,NA,heliport,null,6,UASK,Ust Kamenogorsk,Kazajstán
 PPK,69.183334,54.783333,KZ,Petropavlosk South Airport,AS,airport,medium,6,UACP,Petropavlovsk,Kazajstán
 GBJ,-61.266666,15.866667,GP,Les Bases Airport,NA,airport,medium,-4,TFFM,Grand Bourg,Guadalupe
 SFC,-61.283333,16.25,GP,St-François Airport,NA,airport,small,-4,TFFC,St-François,Guadalupe
@@ -3106,7 +3106,7 @@ TGH,168.54666,-16.90361,VU,Tongoa Island Airport,OC,airport,small,11,NVST,Tongoa
 SON,167.21873,-15.508251,VU,Santo Pekoa International Airport,OC,airport,medium,11,NVSS,Santo,Vanuatu
 RCL,153.07333,-27.207035,VU,Redcliffe Airport,OC,airport,small,11,NVSR,Redcliffe,Vanuatu
 ZGU,167.58827,-14.220086,VU,Gaua Island Airport,OC,airport,medium,11,NVSQ,Gaua Island,Vanuatu
-NUS,,,GL,Norsup Airport,NA,heliport,null,11,NVSP,Norsup,Vanuatu
+NUS,167.401,-16.0797,GL,Norsup Airport,NA,heliport,null,11,NVSP,Norsup,Vanuatu
 LNE,168.17007,-15.860106,VU,Lonorore Airport,OC,airport,small,11,NVSO,Lonorore,Vanuatu
 MWF,168.16667,-15.166667,VU,Naone Airport,OC,airport,small,11,NVSN,Maewo Island,Vanuatu
 LNB,168.18333,-16.583332,VU,Lamen Bay Airport,OC,airport,small,11,NVSM,Lamen Bay,Vanuatu
@@ -3197,7 +3197,7 @@ BII,165.56512,11.525081,MH,Enyu Airfield,OC,airport,small,12,,Bikini Atoll,Islas
 AUL,171.16667,8.133333,MH,Aur Island Airport,OC,airport,small,12,,Aur,Islas Marshall
 AIM,169.98334,10.2,MH,Ailuk Airport,OC,airport,small,12,,Ailuk Island,Islas Marshall
 UTK,169.86667,11.233333,MH,Utirik Airport,OC,airport,small,12,03N,Utirik Island,Islas Marshall
-AAZ,,,GT,Quezaltenango Airport,NA,airport,small,-6,MGQZ,Quezaltenango,Guatemala
+AAZ,-91.502,14.8656,GT,Quezaltenango Airport,NA,airport,small,-6,MGQZ,Quezaltenango,Guatemala
 PBR,-88.60611,15.723056,GT,Puerto Barrios Airport,NA,airport,medium,-6,MGPB,Puerto Barrios,Guatemala
 JBQ,-69.98144,18.575731,DO,Dr Joaquin Balaguer International Airport,NA,airport,medium,-4,MDJB,La Isabela,República Dominicana
 AZS,-69.736946,19.270555,DO,Samaná El Catey International Airport,NA,airport,small,-4,MDCY,Samana,República Dominicana
@@ -3221,7 +3221,7 @@ CVU,-31.1,39.7,PT,Corvo Airport,EU,airport,small,-1,LPCR,Corvo,Portugal
 QSR,14.92084,40.620148,IT,Salerno Pontecagnano Airport,EU,airport,medium,1,LIRI,Salerno,Italia
 AOT,7.3625,45.73861,IT,Aosta Airport,EU,airport,medium,1,LIMW,Aosta,Italia
 SOB,17.240444,46.71347,HU,Sármellék International Airport,EU,airport,medium,1,LHSM,Sármellék,Hungría
-QGY,,,HU,Győr-Pér International Airport,EU,airport,medium,1,LHPR,Győr,Hungría
+QGY,17.808347,47.627097,HU,Győr-Pér International Airport,EU,airport,medium,1,LHPR,Győr,Hungría
 PEV,170.6,69.78333,HU,Pécs-Pogány Airport,EU,airport,medium,1,LHPP,Pécs-Pogány,Hungría
 JSY,24.95,37.42361,GR,Syros Airport,EU,airport,medium,2,LGSO,Syros Island,Grecia
 LTT,6.633333,43.283333,FR,La Môle Airport,EU,airport,small,1,LFTZ,La Môle,Francia
@@ -3295,7 +3295,7 @@ ALM,-105.985275,32.845833,US,Alamogordo White Sands Regional Airport,NA,airport,
 AHN,-83.32472,33.95195,US,Athens Ben Epps Airport,NA,airport,medium,-5,KAHN,Atenas,Estados Unidos
 ABY,-84.19611,31.532223,US,Southwest Georgia Regional Airport,NA,airport,medium,-5,KABY,Albany,Estados Unidos
 ABR,-98.42611,45.4525,US,Aberdeen Regional Airport,NA,airport,medium,-6,KABR,Aberdeen,Estados Unidos
-TQR,,,IT,San Domino Island Heliport,EU,heliport,null,1,,Islas Tremiti,Italia
+TQR,15.488,42.1025,IT,San Domino Island Heliport,EU,heliport,null,1,,Islas Tremiti,Italia
 GSM,55.905277,26.757778,IR,Gheshm Airport,AS,airport,small,3.5,,Gheshm,Irán
 DIU,70.916664,20.716667,IN,Diu Airport,AS,airport,small,5.5,VA1P,Diu,India
 ULU,32.3,2.783333,UG,Gulu Airport,AF,airport,medium,3,HUGU,Gulu,Uganda
@@ -3340,14 +3340,14 @@ EUN,-13.216667,27.133333,EH,Hassan I Airport,AF,airport,medium,0,GMML,El Aaiún,
 ESU,-9.681667,31.3975,MA,Mogador Airport,AF,airport,small,0,GMMI,Essadouira,Marruecos
 VIL,-15.935,23.713333,EH,Dakhla Airport,AF,airport,medium,0,GMMH,Dakhla,Sáhara Occidental
 SMW,-11.683333,26.733334,EH,Smara Airport,AF,airport,medium,0,GMMA,Smara,Sáhara Occidental
-QFI,,,GL,Iginniarfik Heliport,NA,heliport,null,-3,,Iginniarfik,Groenlandia
-QCU,,,GL,Akunnaaq Heliport,NA,heliport,null,-3,,Akunnaaq,Groenlandia
-JGR,,,GL,Groennedal Heliport,NA,heliport,null,-3,,Groennedal,Groenlandia
+QFI,-52.9667,68.7,GL,Iginniarfik Heliport,NA,heliport,null,-3,,Iginniarfik,Groenlandia
+QCU,-52.3333,68.75,GL,Akunnaaq Heliport,NA,heliport,null,-3,,Akunnaaq,Groenlandia
+JGR,-48.1,61.2333,GL,Groennedal Heliport,NA,heliport,null,-3,,Groennedal,Groenlandia
 OXB,-15.657222,11.888889,GW,Osvaldo Vieira International Airport,AF,airport,medium,0,GGOV,Bissau,Guinea-Bissau
 KEN,-11.183333,7.883333,SL,Kenema Airport,AF,airport,medium,0,GFKE,Kenema,Sierra Leona
 KBS,-11.761944,7.943889,SL,Bo Airport,AF,airport,medium,0,GFBO,Bo,Sierra Leona
 BTE,-12.008333,7,SL,Sherbro International Airport,AF,airport,medium,0,GFBN,Bonthe,Sierra Leona
-JCU,,,ES,Ceuta Heliport,EU,heliport,null,0,GECT,Ceuta,España
+JCU,-5.29908,35.8969,ES,Ceuta Heliport,EU,heliport,null,0,GECT,Ceuta,España
 CRU,-61.47222,12.475,GD,Lauriston Airport,NA,airport,small,-4,,Carriacou,Granada
 GMZ,-17.2,28.016666,ES,La Gomera Airport,EU,airport,small,0,GCGM,La Gomera,España
 PSV,-1.7,60.316666,GB,Papa Stour Airport,EU,airport,small,0,,Papa Stour,Reino Unido
@@ -3370,7 +3370,7 @@ OND,15.942233,-17.885496,NA,Ondangwa Airport,AF,airport,medium,1,FYOA,Ondangwa,N
 LUD,15.243889,-26.68639,NA,Luderitz Airport,AF,airport,medium,1,FYLZ,Luderitz,Namibia
 CMK,35.05,-14.3,MW,Club Makokola Airport,AF,airport,small,2,FWCM,Club de Makokola,Malawi
 SRH,18.383333,9.083333,TD,Sarh Airport,AF,airport,small,1,FTTA,Sarh,Chad
-JCA,,,FR,Croisette Heliport,EU,heliport,null,1,,Cannes,Francia
+JCA,7.03736,43.536,FR,Croisette Heliport,EU,heliport,null,1,,Cannes,Francia
 VPY,33.483334,-19.133333,MZ,Chimoio Airport,AF,airport,medium,2,FQCH,Chimoio,Mozambique
 TCH,11,-2.816667,GA,Tchibanga Airport,AF,airport,small,1,FOOT,Tchibanga,Gabón
 MJL,10.924167,-1.817778,GA,Mouilla Ville Airport,AF,airport,medium,1,FOGM,Mouila,Gabón
@@ -3417,7 +3417,7 @@ HFS,13.569167,60.0175,SE,Hagfors Airport,EU,airport,medium,1,ESOH,Hagfors,Suecia
 OSD,14.494444,63.198612,SE,Östersund Airport,EU,airport,medium,1,ESNZ,Östersund,Suecia
 LCJ,19.398333,51.721943,PL,Łódź Władysław Reymont Airport,EU,airport,medium,1,EPLL,Lodz,Polonia
 BZG,17.978611,53.09667,PL,Bydgoszcz Ignacy Jan Paderewski Airport,EU,airport,medium,1,EPBY,Bydgoszcz,Polonia
-VRY,,,NO,Værøy Heliport,EU,heliport,null,1,ENVR,Værøy,Noruega
+VRY,12.6833,67.6667,NO,Værøy Heliport,EU,heliport,null,1,ENVR,Værøy,Noruega
 VAW,31.045555,70.35472,NO,Svartnes Airport,EU,airport,medium,1,ENSS,Vardø,Noruega
 SOJ,20.933332,69.78333,NO,Sorkjosen Airport,EU,airport,medium,1,ENSR,Sorkjosen,Noruega
 SVJ,14.667774,68.24498,NO,Svolvær Helle Airport,EU,airport,medium,1,ENSH,Svolvær,Noruega
@@ -3432,7 +3432,7 @@ CNL,10.216667,57.483334,DK,Sindal Airport,EU,airport,medium,1,EKSN,Sindal,Dinama
 CFN,-8.340278,55.041668,IE,Donegal Airport,EU,airport,medium,0,EIDL,Dongloe,Irlanda
 BRR,-7.440278,57.023335,GB,Barra Airport,EU,airport,medium,0,EGPR,Barra,Reino Unido
 HLY,-4.633333,53.3,GB,Anglesey Airport,EU,airport,medium,0,EGOV,Angelsey,Reino Unido
-PZE,,,GB,Penzance Heliport,EU,heliport,null,0,EGHK,Penzance,Reino Unido
+PZE,-5.51845,50.1281,GB,Penzance Heliport,EU,heliport,null,0,EGHK,Penzance,Reino Unido
 LEQ,-5.733333,50.05,GB,Land's End / St. Just Airport,EU,airport,medium,0,EGHC,Fin de la Tierra,Reino Unido
 WRY,-2.95,59.35,GB,Westray Airport,EU,airport,small,0,EGEW,Westray,Reino Unido
 LWK,-1.15,60.15,GB,Lerwick / Tingwall Airport,EU,airport,small,0,EGET,Lerwick,Reino Unido
@@ -3546,24 +3546,24 @@ YHA,-56.3,52.533333,CA,Port Hope Simpson Airport,NA,airport,small,-4,CCP4,Port H
 YFX,-55.683334,52.36667,CA,St. Lewis (Fox Harbour) Airport,NA,airport,small,-4,CCK4,St. Lewis,Canadá
 YWM,-56.01282,52.335438,CA,Williams Harbour Airport,NA,airport,small,-4,CCA6,Williams Harbour,Canadá
 YAA,-125.3,52.45,CA,Anahim Lake Airport,NA,airport,small,-8,CAJ4,Anahim Lake,Canadá
-YWS,,,CA,Whistler/Green Lake Water Aerodrome,NA,seaplanes,null,-8,CAE5,Whistler,Canadá
+YWS,-122.949,50.1436,CA,Whistler/Green Lake Water Aerodrome,NA,seaplanes,null,-8,CAE5,Whistler,Canadá
 PND,-88.816666,16.1,BZ,Punta Gorda Airport,NA,airport,medium,-6,,Punta Gorda,Belice
 CUK,-88.02956,17.735527,BZ,Caye Caulker Airport,NA,airport,medium,-6,,Caye Caulker,Belice
 VPN,-14.846748,65.72167,IS,Vopnafjörður Airport,EU,airport,small,0,BIVO,Vopnafjordur,Islandia
-THO,,,IS,Thorshofn Airport,EU,closed,null,0,BITN,Thorshofn,Islandia
+THO,-15.3356,66.2185,IS,Thorshofn Airport,EU,closed,null,0,BITN,Thorshofn,Islandia
 GRY,-18.016666,66.566666,IS,Grímsey Airport,EU,airport,small,0,BIGR,Grímsey,Islandia
 JQA,-52.702778,70.73194,GL,Qaarsut Airport,NA,airport,small,-3,BGUQ,Uummannaq,Groenlandia
 JUV,-56.130554,72.790276,GL,Upernavik Airport,NA,airport,small,-4,BGUK,Upernavik,Groenlandia
 JHS,-53.704166,66.93694,GL,Sisimiut Airport,NA,airport,small,-3,BGSS,Sisimiut,Groenlandia
 NAQ,-69.382996,77.48948,GL,Qaanaaq Airport,NA,airport,small,-4,BGQQ,Qaanaaq,Groenlandia
-JNS,,,GL,Narsaq Heliport,NA,heliport,null,-3,BGNS,Narsaq,Groenlandia
-JNN,,,GL,Nanortalik Heliport,NA,heliport,null,-3,BGNN,Nanortalik,Groenlandia
+JNS,-46.0586,60.9167,GL,Narsaq Heliport,NA,heliport,null,-3,BGNS,Narsaq,Groenlandia
+JNN,-45.2317,60.14,GL,Nanortalik Heliport,NA,heliport,null,-3,BGNN,Nanortalik,Groenlandia
 JSU,-52.93537,65.41244,GL,Maniitsoq Airport,NA,airport,small,-3,BGMQ,Maniitsoq,Groenlandia
-JJU,,,GL,Qaqortoq Heliport,NA,heliport,null,-3,BGJH,Qaqortoq,Groenlandia
-JGO,,,GL,Qeqertarsuaq Heliport,NA,heliport,null,-3,BGGN,Qeqertarsuaq Aeropuerto,Groenlandia
-JFR,,,GL,Paamiut Heliport,NA,heliport,null,-3,BGFH,Paamiut,Groenlandia
+JJU,-46.0294,60.7158,GL,Qaqortoq Heliport,NA,heliport,null,-3,BGJH,Qaqortoq,Groenlandia
+JGO,-53.5381,69.2511,GL,Qeqertarsuaq Heliport,NA,heliport,null,-3,BGGN,Qeqertarsuaq Aeropuerto,Groenlandia
+JFR,-49.6625,61.9922,GL,Paamiut Heliport,NA,heliport,null,-3,BGFH,Paamiut,Groenlandia
 CNP,-22.658333,70.74306,GL,Neerlerit Inaat Airport,NA,airport,small,-1,BGCO,Neerlerit Inaat,Groenlandia
-LLU,,,GL,Alluitsup Paa Heliport,NA,heliport,null,-3,BGAP,Alluitsup Paa,Groenlandia
+LLU,-45.5778,60.4644,GL,Alluitsup Paa Heliport,NA,heliport,null,-3,BGAP,Alluitsup Paa,Groenlandia
 WBM,143.91667,-5.616667,PG,Wapenamanda Airport,OC,airport,medium,10,AYWD,Wapenamanda,Papúa Nueva Guinea
 VAI,141.30194,-2.694722,PG,Vanimo Airport,OC,airport,medium,10,AYVN,Vanimo,Papúa Nueva Guinea
 RAB,152.36667,-4.333333,PG,Tokua Airport,OC,airport,medium,10,AYTK,Tokua,Papúa Nueva Guinea
@@ -3617,7 +3617,7 @@ VIG,-71.65,8.633333,VE,Juan Pablo Pérez Alfonso Airport,SA,airport,medium,-4,SV
 MDO,-146.3,59.453056,UY,El Jaguel / Punta del Este Airport,SA,airport,small,-4,SUPE,Maldonado,Uruguay
 SRA,-54.483334,-27.866667,BR,Santa Rosa Airport,SA,airport,small,-3,SSZR,Santa Rosa,Brasil
 HUU,-76.21667,-9.866667,PE,Alferez Fap David Figueroa Fernandini Airport,SA,airport,medium,-5,SPNC,Huánuco,Perú
-LHC,,,US,Caballococha Airport,NA,closed,null,-5,SPBC,Caballococha,Perú
+LHC,-70.508225,-3.916858,US,Caballococha Airport,NA,closed,null,-5,SPBC,Caballococha,Perú
 SRJ,-66.833336,-14.816667,BO,Capitán Av. German Quiroga G. Airport,SA,airport,small,-4,SLSB,San Borja,Bolivia
 RIB,-66.093056,-11.006944,BO,Capitán Av. Selin Zeitun Lopez Airport,SA,airport,small,-4,SLRI,Riberalta,Bolivia
 GYA,-65.361664,-10.83,BO,Capitán de Av. Emilio Beltrán Airport,SA,airport,small,-4,SLGY,Guayaramerín,Bolivia
@@ -3625,7 +3625,7 @@ PDA,-67.88333,3.883333,CO,Obando Airport,SA,airport,medium,-5,SKPD,Puerto Iníri
 NQU,-77.28333,5.7,CO,Reyes Murillo Airport,SA,airport,small,-5,SKNQ,Nuquí,Colombia
 LPD,-69.71667,-1.3,CO,La Pedrera Airport,SA,airport,small,-5,SKLP,La Pedrera,Colombia
 LQM,-74.583336,-0.3,CO,Caucaya Airport,SA,airport,small,-5,SKLG,Puerto Leguízamo,Colombia
-GLJ,,,CO,La Jagua Airport,SA,airport,small,-5,SKGZ,Garzón,Colombia
+GLJ,-75.67,2.17,CO,La Jagua Airport,SA,airport,small,-5,SKGZ,Garzón,Colombia
 CRC,-75.933334,4.766667,CO,Santa Ana Airport,SA,airport,medium,-5,SKGO,Cartago,Colombia
 PSY,-57.85,-51.7,FK,Stanley Airport,SA,airport,medium,-4,SFAL,Stanley,Islas Malvinas
 LOH,-79.37361,-3.993611,EC,Camilo Ponce Enriquez Airport,SA,airport,small,-5,SETM,La Toma (Catamayo),Ecuador
@@ -3686,7 +3686,7 @@ GLH,-90.985,33.484444,US,Mid Delta Regional Airport,NA,airport,medium,-6,GLH,Gre
 IFP,-114.55695,35.165634,US,Laughlin-Bullhead Intl,NA,airport,small,-7,IFP,Siluro,Estados Unidos
 IGM,-113.94,35.256668,US,Kingman Airport,NA,airport,small,-7,IGM,Kingman,Estados Unidos
 PSC,-119.1152,46.259094,US,Tri Cities Airport,NA,airport,medium,-8,PSC,Pasco,Estados Unidos
-KQA,,,US,Akutan Seaplane Base,NA,seaplanes,null,-9,KQA,Akutan,Estados Unidos
+KQA,-165.785,54.1325,US,Akutan Seaplane Base,NA,seaplanes,null,-9,KQA,Akutan,Estados Unidos
 SVC,-108.15389,32.631943,US,Grant County Airport,NA,airport,small,-7,SVC,Silver City,Estados Unidos
 LPS,-122.935555,48.482777,US,Lopez Island Airport,NA,airport,small,-8,S31,López,Estados Unidos
 SLY,66.6,66.583336,RU,Salekhard Airport,AS,airport,medium,6,USDD,Salekhard,Rusia
@@ -3696,7 +3696,7 @@ OVS,63.601887,61.33209,RU,Sovetsky Tyumenskaya Airport,AS,airport,medium,6,USHS,
 IJK,53.456528,56.83045,RU,Izhevsk Airport,EU,airport,medium,6,USII,Izhevsk,Rusia
 KVX,49.35,58.5,RU,Pobedilovo Airport,EU,airport,medium,4,USKK,Kirov,Rusia
 NYM,72.71667,65.48333,RU,Nadym Airport,AS,airport,medium,6,USMM,Nadym,Rusia
-RAT,,,RU,Raduzhny Airport,AS,closed,null,6,USNR,Raduzhnyi,Rusia
+RAT,77.3289,62.1586,RU,Raduzhny Airport,AS,closed,null,6,USNR,Raduzhnyi,Rusia
 NFG,73.05,61.13333,RU,Nefteyugansk Airport,AS,airport,medium,6,USRN,Nefteyugansk,Rusia
 KRO,65.413185,55.474228,RU,Kurgan Airport,AS,airport,medium,6,USUU,Kurgan,Rusia
 LBD,69.6965,40.219887,TJ,Khudzhand Airport,AS,airport,medium,5,UTDL,Khudzhand,Tayikistán
@@ -3976,7 +3976,7 @@ AQG,117.0509,30.5825,CN,Anqing Airport,AS,airport,medium,8,ZSAQ,Anqing,China
 JGS,114.7375,26.899721,CN,Jing Gang Shan Airport,AS,airport,medium,8,\\N,Ji An,China
 SHP,119.71656,39.965214,CN,Shanhaiguan Airport,AS,airport,medium,8,ZBSH,Qinhuangdao,China
 YCU,110.993,35.018,CN,Zhangxiao,AS,airport,small,8,ZBYC,Yuncheng,China
-LHW,,,CN,Lanzhou Airport,AS,closed,null,8,ZLAN,Lanzhou,China
+LHW,103.617,36.117,CN,Lanzhou Airport,AS,closed,null,8,ZLAN,Lanzhou,China
 JGN,98.416664,39.833332,CN,Jiayuguan Airport,AS,airport,medium,8,ZLJQ,Jiayuguan,China
 DDG,124.28081,40.032368,CN,Dandong,AS,airport,medium,8,ZYDD,Dandong,China
 DSN,109.86053,39.49672,CN,Ordos Ejin Horo,AS,airport,medium,8,ZBDS,Dongsheng,China
@@ -3999,8 +3999,8 @@ SUN,-114.30082,43.50647,US,Friedman Mem,NA,airport,medium,-7,KSUN,Hailey,Estados
 JNG,116.53333,35.416668,CN,Jining Airport,AS,airport,medium,8,\\N,Jining,China
 OHE,122.42059,52.92113,CN,Heilongjiang Mohe Airport,AS,airport,medium,8,\\N,Mohe County,China
 IAR,40.160892,57.559753,RU,Tunoshna,EU,airport,small,4,UUDL,Yaroslavl,Rusia
-QNC,,,CH,Neuchatel Airport,EU,airport,small,1,LSGN,Neuchatel,Suiza
-ZJI,,,CH,Locarno Airport,EU,airport,small,1,LSZL,Locarno,Suiza
+QNC,6.86472,46.9575,CH,Neuchatel Airport,EU,airport,small,1,LSGN,Neuchatel,Suiza
+ZJI,8.87861,46.1608,CH,Locarno Airport,EU,airport,small,1,LSZL,Locarno,Suiza
 UKX,105.73333,56.85,RU,Ust-Kut,AS,airport,medium,9,UITT,Ust-Kut,Rusia
 RIN,157.03334,-8.2,SB,Ringi Cove Airport,OC,airport,small,11,AGRC,Ringi Cove,Islas Salomón
 ARE,-66.675835,18.45,PR,Antonio Juarbe Pol Airport,NA,airport,medium,-4,TJAB,Arecibo,Puerto Rico
@@ -4109,9 +4109,9 @@ RHP,86.083336,27.333332,NP,Ramechhap,AS,airport,small,5.75,VNRC,Ramechhap,Nepal
 ULV,48.226665,54.268333,RU,Barataevka,EU,airport,medium,4,UWLL,Ulyanovsk,Rusia
 GSS,30.8,-25.116667,ZA,Sabi Sabi Airport,AF,airport,small,2,\\N,Sabi Sabi,Sudáfrica
 BWD,-98.956665,31.794722,US,KBWD,NA,airport,small,-6,\\N,Brownwood,Estados Unidos
-ZSW,,,CA,Seal Cove Seaplane Base,NA,seaplanes,null,-8,CZSW,Prince Rupert,Canadá
+ZSW,-130.283,54.3333,CA,Seal Cove Seaplane Base,NA,seaplanes,null,-8,CZSW,Prince Rupert,Canadá
 YBV,-97.02141,52.358696,CA,Berens River,NA,airport,medium,-6,CYBV,Berens River,Canadá
-AVX,,,US,Avalon,NA,seaplanes,null,-8,KAVX,Catalina Island,Estados Unidos
+AVX,-118.415833,33.405,US,Avalon,NA,seaplanes,null,-8,KAVX,Catalina Island,Estados Unidos
 ZIN,8.983056,13.779444,CH,Air Base,EU,airport,small,1,LSMI,Interlaken,Suiza
 CZH,-88.410675,18.382334,BZ,Municipal,NA,airport,medium,-6,\\N,Corozal,Belice
 INQ,-9.433333,53.033333,IE,Inisheer,EU,airport,small,0,EIIR,Inisheer,Irlanda
@@ -4132,16 +4132,16 @@ CYR,-57.76777,-34.455326,UY,Laguna de Los Patos International Airport,SA,airport
 CPQ,-47.111595,-22.856462,BR,Amarais Airport,SA,airport,small,-4,SDAM,Campinas,Brasil
 TWB,151.9139,-27.542221,AU,Toowoomba,OC,airport,medium,10,YTWB,Toowoomba,Australia
 AYK,66.96667,50.316666,KZ,Arkalyk Airport,AS,airport,small,5,UAUR,Arkalyk,Kazajstán
-AGN,,,US,Angoon Seaplane Base,NA,seaplanes,null,-9,PAGN,Angoon,Estados Unidos
-EXI,,,US,Excursion Inlet Seaplane Base,NA,seaplanes,null,-9,\\N,Excursion Inlet,Estados Unidos
+AGN,-134.585,57.503611,US,Angoon Seaplane Base,NA,seaplanes,null,-9,PAGN,Angoon,Estados Unidos
+EXI,-135.449167,58.420556,US,Excursion Inlet Seaplane Base,NA,seaplanes,null,-9,\\N,Excursion Inlet,Estados Unidos
 HNH,-135.40334,58.098057,US,Hoonah Airport,NA,airport,small,-9,PAOH,Hoonah,Estados Unidos
-AFE,,,US,Kake Airport,NA,airport,medium,-9,PAFE,Kake,Estados Unidos
-CGA,,,US,Craig Seaplane Base,NA,seaplanes,null,-9,\\N,Craig,Estados Unidos
-HYG,,,US,Hydaburg Seaplane Base,NA,seaplanes,null,-9,PAHY,Hydaburg,Estados Unidos
+AFE,-133.910278,56.961389,US,Kake Airport,NA,airport,medium,-9,PAFE,Kake,Estados Unidos
+CGA,-133.147778,55.478889,US,Craig Seaplane Base,NA,seaplanes,null,-9,\\N,Craig,Estados Unidos
+HYG,-132.828333,55.206389,US,Hydaburg Seaplane Base,NA,seaplanes,null,-9,PAHY,Hydaburg,Estados Unidos
 KCL,-158.53194,56.308334,US,Chignik Lagoon Airport,NA,airport,small,-9,\\N,Chignik Lagoon,Estados Unidos
 AKK,-154.16667,56.944443,US,Akhiok Airport,NA,airport,small,-9,PAKH,Akhiok,Estados Unidos
-ALZ,,,US,Alitak Seaplane Base,NA,seaplanes,null,-9,\\N,Lazy Bay,Estados Unidos
-AOS,,,US,Amook Bay Seaplane Base,NA,seaplanes,null,-9,\\N,Amook Bay,Estados Unidos
+ALZ,-154.247778,56.899444,US,Alitak Seaplane Base,NA,seaplanes,null,-9,\\N,Lazy Bay,Estados Unidos
+AOS,-153.815278,57.471389,US,Amook Bay Seaplane Base,NA,seaplanes,null,-9,\\N,Amook Bay,Estados Unidos
 ABL,-157.84584,67.0875,US,Ambler Airport,NA,airport,medium,-9,PAFM,Ambler,Estados Unidos
 BKC,-161.12666,65.97889,US,Buckland Airport,NA,airport,medium,-9,PABL,Buckland,Estados Unidos
 IAN,-160.43056,66.975555,US,Bob Baker Memorial Airport,NA,airport,medium,-9,PAIK,Kiana,Estados Unidos
@@ -4157,8 +4157,8 @@ PNT,-72.51667,-51.683334,CL,Puerto Natales,SA,airport,medium,-3,SCNT,Puerto Nata
 CVI,-67.416664,-46.416668,AR,Caleta Olivia,SA,airport,small,-3,\\N,Caleta Olivia,Argentina
 SGV,-65.35,-41.566666,AR,Sierra Grande,SA,airport,small,-3,SAVS,Sierra Grande,Argentina
 IGB,-69.583336,-41.3,AR,Ingeniero Jacobacci,SA,airport,small,-3,SAVJ,Ingeniero Jacobacci,Argentina
-ELX,,,VE,El Chalten,SA,heliport,null,-3,\\N,El Chalten,Argentina
-KAE,,,US,Kake Seaplane Base,NA,seaplanes,null,-9,\\N,Kake,Estados Unidos
+ELX,-72.93,-49.328889,VE,El Chalten,SA,heliport,null,-3,\\N,El Chalten,Argentina
+KAE,-133.945556,56.973056,US,Kake Seaplane Base,NA,seaplanes,null,-9,\\N,Kake,Estados Unidos
 YTF,-71.642715,48.509655,CA,Alma Airport,NA,airport,medium,-6,CYTF,Alma,Canadá
 YGV,-63.583332,50.25,CA,Havre Saint-Pierre Airport,NA,airport,medium,-4,CYGV,Havre-Saint-Pierre,Canadá
 YXK,-68.55,48.433334,CA,Rimouski Airport,NA,airport,medium,-6,CYXK,Rimouski,Canadá
@@ -4169,7 +4169,7 @@ YCR,-97.75144,54.61306,CA,Cross Lake - Charlie Sinclair Memorial Airport,NA,airp
 YRS,-93.55762,54.16757,CA,Red Sucker Lake Airport,NA,airport,medium,-7,CYRS,Red Sucker Lake,Canadá
 YOP,-119.4,58.5,CA,Rainbow Lake Airport,NA,airport,medium,-7,CYOP,Rainbow Lake,Canadá
 YBY,-110.73333,54.266666,CA,Bonnyville Airport,NA,airport,medium,-7,CYBF,Bonnyville,Canadá
-ZNA,,,CA,Nanaimo Harbour Water Airport,NA,seaplanes,null,-8,CAC8,Nanaimo,Canadá
+ZNA,-123.95,49.183333,CA,Nanaimo Harbour Water Airport,NA,seaplanes,null,-8,CAC8,Nanaimo,Canadá
 YDT,-123.183334,49.183334,CA,Boundary Bay Airport,NA,airport,small,-8,CZBB,Bahía de Fronteras,Canadá
 CYC,-88.833336,17.666668,BZ,Caye Chapel Airport,NA,airport,medium,-6,\\N,Caye Chapel,Belice
 BGK,-88.4,16.516666,BZ,Big Creek Airport,NA,airport,medium,-6,\\N,Big Creek,Belice
@@ -4185,7 +4185,7 @@ RIK,-85.48333,9.866667,CR,Carrillo Airport,NA,airport,small,-6,MRCR,Carrillo,Cos
 COZ,-70.71667,18.9,DO,Constanza Airport,NA,airport,small,-4,MDCZ,Constanza,República Dominicana
 NEG,-78.333336,18.308332,JM,Negril Aerodrome,NA,airport,small,-5,MKNG,Negril,Jamaica
 RLO,-65.5525,-32.384445,AR,Aeropuerto Internacional Valle del Conlara,SA,airport,small,-3,\\N,Merlo,Argentina
-SSB,,,VI,Christiansted Harbor Seaplane Base,NA,seaplanes,null,-4,\\N,Christiansted,Islas Vírgenes
+SSB,-64.705,17.747222,VI,Christiansted Harbor Seaplane Base,NA,seaplanes,null,-4,\\N,Christiansted,Islas Vírgenes
 ARR,-70.833336,-45.033333,AR,Alto Rio Senguer Airport,SA,airport,small,-3,SAVR,Alto Río Senguer,Argentina
 JSM,-70.433334,-44.066666,AR,Jose de San Martin Airport,SA,airport,small,-3,SAWS,José de San Martín,Argentina
 UYU,-66.8484,-20.4463,BO,Uyuni Airport,SA,airport,small,-4,SLUY,Uyuni,Bolivia
@@ -4227,7 +4227,7 @@ STZ,-50.45,-10.300278,BR,Confresa Airport,SA,airport,small,-4,SWST,Santa Terezin
 MQH,-48.233334,-13.533333,BR,Minacu Airport,SA,airport,medium,-3,SBMC,Minacu,Brasil
 AUX,-48.2,-7.2,BR,Araguaina Airport,SA,airport,small,-3,SWGN,Araguaina,Brasil
 NVP,-60.36667,-5.133333,BR,Novo Aripuana Airport,SA,airport,small,-4,SWNA,Novo Aripuana,Brasil
-LVR,,,BR,Bom Futuro Airport,SA,airport,small,-4,SWFE,Lucas do Rio Verde,Brasil
+LVR,-55.910833,-13.05,BR,Bom Futuro Airport,SA,airport,small,-4,SWFE,Lucas do Rio Verde,Brasil
 FRC,-47.4375,-20.551945,BR,Franca Airport,SA,airport,small,-3,SIMK,Franca,Brasil
 DOU,-54.925556,-22.202778,BR,Dourados Airport,SA,airport,small,-3,SSDO,Dourados,Brasil
 LBR,-64.85,-7.25,BR,Labrea Airport,SA,airport,small,-4,SWLB,Labrea,Brasil
@@ -4248,7 +4248,7 @@ GSQ,28.716667,22.583332,EG,Sharq Al-Owainat Airport,AF,airport,small,2,HEOW,Shar
 AWA,38.4875,7.061111,ET,Awasa Airport,AF,airport,small,3,HALA,Awasa,Etiopía
 DBM,37.743057,10.319444,ET,Debre Marqos,AF,airport,small,3,HADM,Debre Marqos,Etiopía
 DBT,38.025276,11.968056,ET,Debre Tabor Airport,AF,airport,small,3,HADT,Debre Tabor,Etiopía
-QHR,,,ET,Harar Meda Airport,AF,airport,medium,3,HAHM,Debre Zeyit,Etiopía
+QHR,39.0059,8.7163,ET,Harar Meda Airport,AF,airport,medium,3,HAHM,Debre Zeyit,Etiopía
 GOB,39.980556,7.013889,ET,Robe Airport,AF,airport,small,3,HAGB,Goba,Etiopía
 MYB,10.683333,-3.45,GA,Mayumba Airport,AF,airport,small,1,FOOY,Mayumba,Gabón
 MRE,35.05885,-1.300368,KE,Mara Serena Airport,AF,airport,medium,3,\\N,Masai Mara,Kenia
@@ -4256,7 +4256,7 @@ CPA,-7.695556,4.376667,LR,Cape Palmas Airport,AF,airport,small,0,GLCP,Greenville
 AMY,45.666668,-17.683332,MG,Ambatomainty Airport,AF,airport,small,3,\\N,Ambatomainty,Madagascar
 BZB,35.49167,-21.534721,MZ,Bazaruto Island Airport,AF,airport,medium,2,\\N,Bazaruto Island,Mozambique
 BCW,35.425,-21.884722,MZ,Benguera Island Airport,AF,airport,medium,2,\\N,Benguera Island,Mozambique
-IBL,,,MZ,Indigo Bay Lodge Airport,AF,airport,medium,2,\\N,Indigo Bay Lodge,Mozambique
+IBL,35.452222,-21.707222,MZ,Indigo Bay Lodge Airport,AF,airport,medium,2,\\N,Indigo Bay Lodge,Mozambique
 MAX,-13.323611,15.593056,SN,Ouro Sogui Airport,AF,airport,medium,0,GOSM,Matam,Senegal
 BDI,55.216667,-3.716667,SC,Bird Island Airport,AF,airport,small,4,FSSB,Isla de los Pájaros,Seychelles
 WHF,31.5,21.75,SD,Wadi Halfa Airport,AF,airport,small,3,HSSW,Wadi Halfa,Sudán
@@ -4288,15 +4288,15 @@ KHE,32.51268,46.67822,UA,Chernobayevka Airport,EU,airport,small,2,UKOH,Jerson,Uc
 SZS,167.86667,-47,NZ,Ryans Creek Aerodrome,OC,airport,small,12,NZRC,Stewart Island,Nueva Zelanda
 HJJ,109.69972,27.44139,CN,Zhijiang Airport,AS,airport,medium,8,\\N,Zhijiang,China
 YQI,-66.083336,43.833332,CA,Yarmouth Airport,NA,airport,medium,-5,CYQI,Yarmouth,Canadá
-ISO,,,GL,Kinston Regional Jetport,NA,heliport,null,7,KISO,Kinston,Estados Unidos
+ISO,-77.608889,35.331389,GL,Kinston Regional Jetport,NA,heliport,null,7,KISO,Kinston,Estados Unidos
 PLL,-59.984444,-3.145556,BR,Ponta Pelada Airport,SA,airport,medium,-4,\\N,Manaus,Brasil
 SJL,-66.98556,-0.148333,BR,Sao Gabriel da Cachoeira Airport,SA,airport,medium,-4,\\N,Sao Gabriel da Cachoeira,Brasil
 CKS,-50.001945,-6.114749,BR,Carajas Airport,SA,airport,medium,-3,SBCJ,Parauapebas,Brasil
 ITB,-55.983334,-4.283333,BR,Cachimbo,SA,airport,medium,-4,\\N,Itaituba,Brasil
 LTU,76.46629,18.409552,IN,Latur Airport,AS,airport,medium,5.5,\\N,Latur,India
 MWK,106.26667,3.3,ID,Matak Airport,AS,airport,small,7,WIOM,Islas Anambas,Indonesia
-QMZ,,,DE,Mainz,EU,airport,medium,1,\\N,Maguncia,Alemania
-ZPQ,,,DE,Rheine Bentlage,EU,airport,medium,1,\\N,Rheine,Alemania
+QMZ,8.27356,50.00829,DE,Mainz,EU,airport,medium,1,\\N,Maguncia,Alemania
+ZPQ,7.43843,52.27656,DE,Rheine Bentlage,EU,airport,medium,1,\\N,Rheine,Alemania
 TTR,119.82094,-3.042564,ID,Tana Toraja Airport,AS,airport,small,8,\\N,Toraja,Indonesia
 OSB,-92.68217,38.11437,IQ,Mosul International Airport,AS,airport,medium,4,ORBM,Mosul,Irak
 TJH,134.78767,35.51366,JP,Tajima Airport,AS,airport,medium,9,RJBT,Toyooka,Japón
@@ -4304,7 +4304,7 @@ KKX,129.92805,28.321388,JP,Kikai Airport,AS,airport,medium,9,RJKI,Kikai,Japón
 AGJ,127.23805,26.589722,JP,Aguni Airport,AS,airport,small,9,RORA,Aguni,Japón
 LAC,113.85,7.4,CN,Layang Layang Airport,AS,airport,small,8,\\N,Layang Layang Atoll,Malasia
 UGA,103.55,48.8,MN,Bulgan Airport,AS,airport,medium,7,ZMBN,Bulgan,Mongolia
-BPR,,,PH,Borongan Airport,AS,airport,small,8,RPVW,Borongan,Filipinas
+BPR,125.478611,11.674167,PH,Borongan Airport,AS,airport,small,8,RPVW,Borongan,Filipinas
 LBX,120.105,13.865556,PH,Lubang Community Airport,AS,airport,medium,8,RPLU,Lubang,Filipinas
 TJU,69.80666,37.988335,TJ,Kulob Airport,AS,airport,medium,5,UTDK,Kulyab,Tayikistán
 CMJ,119.416664,23.25,TW,Cimei Airport,AS,airport,small,8,RCCM,Cimei,Taiwán
@@ -4343,10 +4343,10 @@ KMW,40.933334,57.75,RU,Sokerkino,EU,airport,medium,4,UUBD,Kostroma,Rusia
 OFU,-169.7,-14.166667,AS,Ofu Airport,OC,airport,small,-11,\\N,Ofu,Samoa Americana
 GFY,18.133333,-19.6,NA,Grootfontein,AF,airport,medium,1,FYGF,Grootfontein,Namibia
 NDU,19.723513,-17.955778,NA,Rundu,AF,airport,medium,1,FYRU,Rundu,Namibia
-AGM,,,GL,Tasiilaq,NA,heliport,null,-2,BGAM,Angmagssalik,Groenlandia
+AGM,-37.618333,65.612222,GL,Tasiilaq,NA,heliport,null,-2,BGAM,Angmagssalik,Groenlandia
 OLM,-122.903336,46.97361,US,Olympia Regional Airpor,NA,airport,medium,-7,KOLM,Olympia,Estados Unidos
 DWA,34.13333,-13,MW,Yolo County Airport,AF,airport,medium,-7,KDWA,Davis-Woodland-Winters,Estados Unidos
-SAA,,,GL,Shively Field Airport,NA,heliport,null,-6,KSAA,SARATOGA,Estados Unidos
+SAA,-106.8235264,41.4448594,GL,Shively Field Airport,NA,heliport,null,-6,KSAA,SARATOGA,Estados Unidos
 PDK,-84.30194,33.875557,US,Dekalb-Peachtree Airport,NA,airport,medium,-4,KPDK,Atlanta,Estados Unidos
 BMG,-86.61472,39.14,US,Monroe County Airport,NA,airport,medium,-5,KBMG,Bloomington,Estados Unidos
 MMU,-74.41583,40.799168,US,Morristown Municipal Airport,NA,airport,medium,-5,KMMU,Morristown,Estados Unidos
@@ -4369,7 +4369,7 @@ SQH,104.025,21.218056,VN,Na-San Airport,AS,airport,small,7,VVNS,Hijo-La,Vietnam
 GEX,144.35,-38.13333,AU,Geelong Airport,OC,airport,small,10,YGLG,Geelong,Australia
 ASI,-14.4,-7.966667,SH,Wideawake Field,AF,airport,medium,0,\\N,Georgetown Ascensión Isla de Santa Helena,Reino Unido
 BIV,21.983334,6.533333,CF,Tulip City Airport,AF,airport,small,-5,KBIV,Holanda,Estados Unidos
-JRA,,,US,West 30th St. Heliport,NA,heliport,null,-5,KJRA,Nueva York,Estados Unidos
+JRA,-74.0071,40.7545,US,West 30th St. Heliport,NA,heliport,null,-5,KJRA,Nueva York,Estados Unidos
 MYQ,76.653,12.229991,IN,Mysore Airport,AS,airport,small,5.5,VOMY,Mysore,India
 PEA,137.93333,-35.733334,AU,Penneshaw Airport,OC,airport,small,9.5,YPSH,Penneshaw,Australia
 MUQ,120,-20.666668,AU,Munich HBF,OC,airport,small,1,MUNI,Munich,Alemania
@@ -4380,7 +4380,7 @@ BOX,136.28334,-16.066668,AU,Bochum HBF,OC,airport,small,1,BOCH,Bochum,Alemania
 KOX,136.41667,-4.716667,ID,Koln HBF,AS,airport,small,1,KOLN,Koln,Alemania
 BBP,-1.083333,50.683334,GB,Bembridge,EU,airport,small,0,EGHJ,Bembridge,Reino Unido
 LES,27.666668,-29.666668,LS,Leuterschach BF,AF,airport,small,1,LEUT,Leuterschach,Alemania
-QYD,,,PL,Gdynia,EU,airport,medium,1,EPOK,Gdynia,Polonia
+QYD,18.5172,54.5797,PL,Gdynia,EU,airport,medium,1,EPOK,Gdynia,Polonia
 ONQ,32.1,41.516666,TR,Zonguldak,AS,airport,small,2,LTAS,Zonguldak,Pavo
 ZKB,30.659721,-8.522222,ZM,Kasaba Bay Airport,AF,airport,small,2,FLKY,Kasaba Bay,Zambia
 WPU,-68.25,-54.95,CL,Guardiamarina Zanartu Airport,SA,airport,medium,-4,\\N,Puerto Williams,Chile
@@ -4398,7 +4398,7 @@ HIA,119.12778,33.7875,CN,Huai An Lianshui Airport,AS,airport,medium,8,ZSSH,Huai 
 YOO,-78.9,43.916668,CA,Oshawa Airport,NA,airport,medium,-5,CYOO,Oshawa,Canadá
 LHA,7.883333,48.333332,DE,Lahr Airport,EU,airport,medium,1,EDTL,Lahr,Alemania
 MSI,114.433334,-5.583333,ID,Sun Island Airport,AS,airport,small,4,SIAM,Sur Aari Atoll,Maldivas
-HEX,,,DO,Herrera International Airport,NA,closed,null,-6,MDHE,Santo Domingo,República Dominicana
+HEX,-69.975,18.475,DO,Herrera International Airport,NA,closed,null,-6,MDHE,Santo Domingo,República Dominicana
 CDA,132.5225,-12.905278,AU,Cooinda,OC,airport,small,9.5,YCOO,Cooinda,Australia
 JAB,132.89194,-12.659722,AU,Jabiru,OC,airport,small,9.5,YJAB,Jabiru,Australia
 HGS,-13.13,8.393056,SL,Hastings Airport,AF,airport,small,0,GFHA,Freetown,Sierra Leona
@@ -4410,10 +4410,10 @@ BXK,-112.583336,33.36667,US,Buckeye Municipal Airport,NA,airport,small,-7,KBXK,B
 YZY,100.660835,38.8075,CN,Mackenzie Airport,AS,airport,medium,-8,CYZY,Mackenzie Columbia Británica,Canadá
 AIZ,-92.54722,38.09833,US,Lee C Fine Memorial Airport,NA,airport,small,-5,KAIZ,Kaiser Lake Ozark,Estados Unidos
 KIP,-98.5,33.9,US,KIEV INTERNATIONAL AIRPORT,NA,airport,small,3,KIEV,KIEV,Ucrania
-IGS,,,DE,Ingolstadt BF,EU,airport,medium,1,INGS,Ingolstadt,Alemania
-GML,,,UA,Gostomel Antonov,EU,airport,medium,2,UKKM,Kiev,Ucrania
+IGS,11.422,48.7777,DE,Ingolstadt BF,EU,airport,medium,1,INGS,Ingolstadt,Alemania
+GML,30.191944,50.603611,UA,Gostomel Antonov,EU,airport,medium,2,UKKM,Kiev,Ucrania
 ULX,31.35,-24.783333,ZA,Ulusaba Airstrip,AF,airport,small,1,\\N,Ulusaba,Namibia
-YBW,,,CA,Calgary Springbank Airport,NA,seaplanes,null,-7,CYBW,Calgary,Canadá
+YBW,-114.374,51.1031,CA,Calgary Springbank Airport,NA,seaplanes,null,-7,CYBW,Calgary,Canadá
 YRV,-118.166664,51,CA,Revelstoke Airport,NA,airport,medium,-8,CYRV,Revelstoke,Canadá
 KHW,23.5,-19,BW,Khwai River Lodge,AF,airport,small,2,FBKR,Río Khwai,Botswana
 TXG,120.64611,24.15,TW,Taichung Airport,AS,airport,small,8,RCLG,Taichung,Taiwán
@@ -4431,17 +4431,17 @@ KHT,72,35,AF,FOB Salerno,AS,airport,small,4.5,OAKS,Khost,Afganistán
 NYT,96.201385,19.6225,MM,NAYPYITAW,AS,airport,small,6.5,VYNT,Naypyitaw,Birmania
 YTA,-77.24944,45.861668,CA,Pembroke Airport,NA,airport,medium,-5,CYTA,Pembroke,Canadá
 TSB,17.733334,-19.266666,NA,Tsumeb Airport,AF,airport,medium,1,FYTM,Tsumeb,Namibia
-YSD,,,CA,Suffield Heliport,NA,heliport,null,-7,CYSD,Suffield,Canadá
+YSD,-111.182999,50.2666701,CA,Suffield Heliport,NA,heliport,null,-7,CYSD,Suffield,Canadá
 BNU,-49,-27,BR,Aeroporto Blumenau,SA,airport,small,-3,SSBL,BLUMENAU,Brasil
 SIB,13.4,-3.733333,CG,Aeroclub Sibiu,AF,airport,small,2,\\N,Sibiu,Rumania
 CIO,-57.41833,-23.434444,PY,Aeroclub Cioca,SA,airport,small,2,LRT2,Timisoara,Rumania
-FBS,,,US,Friday Harbor Seaplane Base,NA,seaplanes,null,-8,\\N,Friday Harbor,Estados Unidos
+FBS,-123.009722,48.537222,US,Friday Harbor Seaplane Base,NA,seaplanes,null,-8,\\N,Friday Harbor,Estados Unidos
 YCC,-74.566666,45.1,CA,Cornwall Regional Airport,NA,airport,medium,-5,CYCC,Cornualles,Canadá
 IZA,-43.173058,-21.513056,BR,Zona da Mata Regional Airport,SA,airport,medium,-3,SDZY,Juiz de Fora,Brasil
 GNU,-161.58055,59.1125,US,Goodnews Airport,NA,airport,small,-10,\\N,Goodnews Bay,Estados Unidos
-WWT,,,US,Newtok Airport,NA,seaplanes,null,-10,\\N,Newtok,Estados Unidos
+WWT,-164.641111,60.939167,US,Newtok Airport,NA,seaplanes,null,-10,\\N,Newtok,Estados Unidos
 ACU,-79.72444,9.576389,PA,Achutupo Airport,NA,airport,small,-5,\\N,Achutupo,Panamá
-OBY,,,GL,Ittoqqortoormiit Heliport,NA,heliport,null,0,BGSC,Ittoqqortoormiit,Groenlandia
+OBY,-21.966667,70.485278,GL,Ittoqqortoormiit Heliport,NA,heliport,null,0,BGSC,Ittoqqortoormiit,Groenlandia
 VIN,28.6112,49.243427,UA,Vinnitsa,EU,airport,small,2,UKWW,Vinnitsa,Ucrania
 YZZ,-117.6,49.066666,CA,Trail Airport,NA,airport,small,-8,CAD4,Rastro,Canadá
 BCV,-88.77904,17.270498,BZ,Hector Silva Airstrip,NA,airport,small,-6,\\N,Belmopan,Belice
@@ -4492,7 +4492,7 @@ YKX,-80.03333,48.15,CA,Kirkland Lake,NA,airport,medium,-5,CYKX,Kirkland Lake,Can
 YMG,-85.86667,49.083332,CA,Manitouwadge,NA,airport,medium,-5,CYMG,Manitouwadge,Canadá
 YXZ,-84.785835,47.9625,CA,Wawa,NA,airport,medium,-5,CYXZ,Wawa,Canadá
 YEM,-81.858055,45.842777,CA,Manitoulin East,NA,airport,medium,-5,CYEM,Manitowaning,Canadá
-NIC,,,CY,Nicosia International Airport,AS,closed,null,2,\\N,Nicosia,Chipre
+NIC,33.27222,35.15111,CY,Nicosia International Airport,AS,closed,null,2,\\N,Nicosia,Chipre
 XMC,149.71666,-37.6,AU,Mallacoota Airport,OC,airport,small,11,YMCO,Mallacoota,Australia
 ULH,38.116653,26.480862,SA,Prince Abdul Majeed Airport,AS,airport,medium,3,OEAO,Al-Ula,Arabia Saudita
 YUE,131.81667,-22.266666,AU,Yuendumu,OC,airport,small,9.5,YYND,Yuendumu,Australia
@@ -4505,7 +4505,7 @@ EYK,66.70121,63.696682,RU,Beloyarsky,AS,airport,medium,5,USHQ,Beloyarsky,Rusia
 REI,-52.13333,4.316667,GF,Redlands Municipal Airport,SA,airport,small,-8,KREI,Redlands,Estados Unidos
 HMJ,27,49.416668,UA,Khmeinitskiy,EU,airport,medium,2,UKLH,Khmeinitskiy,Ucrania
 HIW,132.41638,34.36361,JP,Hiroshima-Nishi,AS,airport,medium,9,RJBH,Hiroshima,Japón
-FGL,,,NZ,Fox Glacier Airstrip,OC,heliport,null,12,\\N,Fox Glacier,Nueva Zelanda
+FGL,170.033,-43.4,NZ,Fox Glacier Airstrip,OC,heliport,null,12,\\N,Fox Glacier,Nueva Zelanda
 ELL,27.683332,-23.716667,ZA,Ellisras,AF,airport,small,1,FAEA,Lephalale,Sudáfrica
 AVO,-81.51667,27.6,US,Executive,NA,airport,small,-5,KAVO,Avon Park,Estados Unidos
 CCO,-71.333336,4.566667,CO,Coweta County Airport,SA,airport,small,-5,KCCO,Newnan,Estados Unidos
@@ -4513,9 +4513,9 @@ AIK,-81.68407,33.649014,US,Municipal Airport,NA,airport,small,-5,KAIK,Aiken,Esta
 BKL,-81.683334,41.516945,US,Burke Lakefront Airport,NA,airport,medium,-5,KBKL,Cleveland,Estados Unidos
 ANQ,-85,41.63333,US,Tri-State Steuben County Airport,NA,airport,small,-5,KANQ,Angola,Estados Unidos
 SCS,-1.294972,60.436825,GB,Scatsta Airport,EU,airport,medium,0,\\N,Scatsta,Reino Unido
-CGX,,,US,Meigs Field,NA,closed,null,-6,KCGX,Chicago,Estados Unidos
+CGX,-87.609722,41.860278,US,Meigs Field,NA,closed,null,-6,KCGX,Chicago,Estados Unidos
 BXO,8.383333,46.966667,CH,Buochs Airport,EU,airport,small,1,LSZC,Buochs,Suiza
-UMD,,,GL,Uummannaq Heliport,NA,heliport,null,-4,BGUM,Uummannaq,Groenlandia
+UMD,52.0702,70.4047,GL,Uummannaq Heliport,NA,heliport,null,-4,BGUM,Uummannaq,Groenlandia
 BVY,-70.88333,42.55,US,Beverly Municipal Airport,NA,airport,medium,-5,KBVY,Beverly,Estados Unidos
 YRQ,-72.683334,46.35,CA,Trois Rivieres Airport,NA,airport,medium,-5,CYRQ,Trois Rivieres,Canadá
 PSL,-3.566667,56.233334,GB,Perth Scone Airport,EU,airport,small,0,EGPT,Perth,Reino Unido
@@ -4544,10 +4544,10 @@ ZTU,46.664787,41.56166,AZ,Zaqatala International Airport,AS,airport,small,4,UBBY
 JIQ,108.829185,29.517557,CN,Zhoubai,AS,airport,medium,8,\\N,Qianjiang,China
 DEE,145.683,43.9584,RU,Mendeleevo,AS,airport,small,12,YXCM,Yuzhno-Kurilsk,Rusia
 AOH,-84.1,40.766666,US,Lima Allen County Airport,NA,airport,small,-5,KAOH,Lima,Estados Unidos
-DSO,,,KP,Sondok Airport,AS,airport,small,9,\\N,Hamhung,Corea del Norte
+DSO,127.474611,39.747333,KP,Sondok Airport,AS,airport,small,9,\\N,Hamhung,Corea del Norte
 ZBM,-72.833336,45.316666,CA,Bromont Airport,NA,airport,medium,-5,CZBM,Bromont,Canadá
 CDK,-83.03333,29.133333,US,CedarKey,NA,airport,small,-4,KCDK,Cedar Key,Estados Unidos
-QFO,,,GB,Duxford Aerodrome,EU,airport,medium,0,EGSU,Duxford,Reino Unido
+QFO,0.13194,52.09083,GB,Duxford Aerodrome,EU,airport,medium,0,EGSU,Duxford,Reino Unido
 IFL,146.01666,-17.55,AU,Innisfail,OC,airport,small,10,YIFL,Innisfail,Australia
 BIN,67.82361,34.80417,AF,Bamyan Airport,AS,airport,small,4.5,OABN,Bamyan,Afganistán
 NBS,127.6,42.083332,CN,Changbaishan Airport,AS,airport,medium,8,\\N,Baishan,China
@@ -4568,7 +4568,7 @@ ANP,-76.5,38.983334,US,Lee Airport,NA,airport,small,-5,KANP,Annapolis,Estados Un
 FXO,36.526943,-14.805278,MZ,Cuamba,AF,airport,small,2,FQCB,Cuamba,Mozambique
 ODO,114.2425,57.86639,RU,Bodaibo,AS,airport,small,9,UIKB,Bodaibo,Rusia
 QCJ,-48.475,-22.966667,BR,Botucatu,SA,airport,small,-3,SDBK,Botucatu,Brasil
-QSC,,,BR,Sao Carlos TAM,SA,airport,small,-3,SDSC,Sao Carlos,Brasil
+QSC,-47.904,-21.875,BR,Sao Carlos TAM,SA,airport,small,-3,SDSC,Sao Carlos,Brasil
 PCM,-87.1,20.6,MX,Playa del Carmen Airport,NA,airport,small,-6,\\N,Playa del Carmen,México
 KTI,106.05,12.5,KH,Kratie Airport,AS,airport,small,7,VDKT,Kratie,Camboya
 GYU,106.218025,36.075325,CN,Guyuan,AS,airport,medium,8,ZLGY,Guyuan,China
@@ -4589,8 +4589,8 @@ VLU,30.616667,56.38333,RU,Velikiye Luki,EU,airport,medium,4,ULOL,Velikiye Luki,R
 ULI,139.8,10.016667,FM,Ulithi,OC,airport,small,10,\\N,Ulithi,Micronesia
 BEO,151.66667,-33.033333,AU,Belmont Airport,OC,airport,small,10,YPEC,Lago Macquarie,Australia
 BMP,149.23334,-20.783333,AU,Brampton Island,OC,airport,small,10,YBPI,Brampton Island,Australia
-NGZ,,,US,NAS Alameda,NA,closed,null,-9,KNGZ,Alameda,Estados Unidos
-NML,,,CA,Fort McMurray - Mildred Lake Airport,NA,airport,small,-7,\\N,Fort McMurray,Canadá
+NGZ,-122.3186,37.7861,US,NAS Alameda,NA,closed,null,-9,KNGZ,Alameda,Estados Unidos
+NML,-111.573997,57.055599,CA,Fort McMurray - Mildred Lake Airport,NA,airport,small,-7,\\N,Fort McMurray,Canadá
 YCN,-81.01289,49.106018,CA,Cochrane,NA,airport,medium,-5,CYCN,Cochrane,Canadá
 BQB,115.40204,-33.68688,AU,Brusselton,OC,airport,small,8,YBLN,Brusselton,Australia
 IVR,151.14056,-29.883896,AU,Inverell,OC,airport,medium,10,YIVL,Inverell,Australia

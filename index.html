@@ -28,7 +28,10 @@ var map = L.mapbox.map('map', 'facufarias.kamfbc45')
 // - The file must either be on the same domain as the page that requests it,
 //   or both the server it is requested from and the user's browser must
 //   support CORS.
-omnivore.csv('es/Airports.csv').addTo(map);
+//omnivore.csv('es/Airports.csv').addTo(map);
+omnivore.csv('es/Airports.csv', null, L.mapbox.featureLayer()).addTo(map).on('error', function(error) {
+console.log(error);
+});
 </script>
 </body>
 </html>
