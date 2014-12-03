@@ -13,6 +13,7 @@
 </head>
 <body>
 <script src='https://api.tiles.mapbox.com/mapbox.js/plugins/leaflet-omnivore/v0.2.0/leaflet-omnivore.min.js'></script>
+<script src='https://api.tiles.mapbox.com/mapbox.js/plugins/leaflet-heat/v0.1.0/leaflet-heat.js'></script>
 
 <div id='map'></div>
 
@@ -20,6 +21,10 @@
 L.mapbox.accessToken = 'pk.eyJ1IjoiZmFjdWZhcmlhcyIsImEiOiJkTVZ4YnZVIn0.SC6sAHi49GzKTQNerslZWA';
 var map = L.mapbox.map('map', 'facufarias.kamfbc45')
     .setView([41, 2], 5);
+
+// The maxZoom states which zoom the markers are fully opaque at -
+// in this case, there are few markers far apart, so we set it low.
+heat = L.heatLayer([], { maxZoom: 7 }).addTo(map);
 
 // Omnivore will AJAX-request this file behind the scenes and parse it:
 // note that there are considerations:
@@ -29,9 +34,19 @@ var map = L.mapbox.map('map', 'facufarias.kamfbc45')
 //   or both the server it is requested from and the user's browser must
 //   support CORS.
 //omnivore.csv('es/Airports.csv').addTo(map);
-omnivore.csv('es/Airports.csv', null, L.mapbox.featureLayer()).addTo(map).on('error', function(error) {
-console.log(error);
+var layer = omnivore.csv('es/Airports.csv', null, L.mapbox.featureLayer()).addTo(map)
+  .on('ready', function() {
+    // Zoom the map to the bounds of the markers.
+    // map.fitBounds(layer.getBounds());
+    // Add each marker point to the heatmap.
+    layer.eachLayer(function(l) {
+      heat.addLatLng(l.getLatLng());
+    });
+  })
+  .on('error', function(error) {
+    console.log(error);
 });
+
 </script>
 </body>
 </html>
