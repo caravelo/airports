@@ -3,6 +3,7 @@
    <head>
       <meta charset=utf-8 />
       <title>Airports on the Map</title>
+      <link rel="icon" href="https://caravelo.github.io/Airports/favicon.ico" />
       <meta name='viewport' content='initial-scale=1,maximum-scale=1,user-scalable=no' />
       <style>
          body { margin:0; padding:0; font-family: sans-serif;}
@@ -80,7 +81,7 @@ var layer = omnivore.csv('es/Airports.csv').on('ready', function(e) {
        marker.bindPopup(
          L.mapbox.template('<strong class="airport-name">{{name}}</strong><dl class="airport-details">'
             + '<dt>IATA</dt><dd>{{iata}}</dd><dt>ICAO</dt><dd>{{icao}}</dd>'
-            + '<dt>Time Zone</dt><dd>GMT {{timezone}}:00</dd>'
+            + '<dt>Time Zone</dt><dd>UTC {{timezone}}</dd>'
             + '<dt>City</dt><dd>{{city}}</dd><dt>Country</dt><dd>{{country}}</dd>'
             + '</dl>', p)
          );
