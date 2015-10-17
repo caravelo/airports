@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <meta charset=utf-8 />
+      <title>Airports on the Map</title>
+      <link rel="icon" href="https://caravelo.github.io/Airports/favicon.ico" />
+      <meta name='viewport' content='initial-scale=1,maximum-scale=1,user-scalable=no' />
+      <style>
+         body { margin:0; padding:0; font-family: sans-serif;}
+         #map { position:absolute; top:0; bottom:0; width:100%; }
+         .airport-name { font-size: 1.35em; margin-bottom: 4px; padding-bottom: 2px; border-bottom: 1px solid #CCC; display: block; }
+         dt { float: left; clear: left; width: 70px; color: #888; }
+         dt:after { content: ":"; }
+         dd { margin: 0 0 0 75px; padding: 0 0 0.5em 0; }
+         .menu-ui {
+         background:#fff; position:absolute; top:10px;right:10px;
+         z-index:1; border-radius:3px; width:120px; border:1px solid rgba(0,0,0,0.4);
+         }
+         .menu-ui a { 
+            font-size:13px; color:#404040; display:block; margin:0;padding:0; padding:10px; text-decoration:none; 
+            border-bottom:1px solid rgba(0,0,0,0.25); text-align:center;
+         }
+         .menu-ui a:first-child { border-radius:3px 3px 0 0; }
+         .menu-ui a:last-child { border:none; border-radius:0 0 3px 3px; }
+         .menu-ui a:hover { background:#f8f8f8; color:#404040; }
+         .menu-ui a.active { background:#3887BE; color:#FFF; }
+         .menu-ui a.active:hover { background:#3074a4; }
+      </style>
+      <script src='https://api.tiles.mapbox.com/mapbox.js/v2.1.4/mapbox.js'></script>
+      <link href='https://api.tiles.mapbox.com/mapbox.js/v2.1.4/mapbox.css' rel='stylesheet' />
+      <script src='https://api.tiles.mapbox.com/mapbox.js/plugins/leaflet-omnivore/v0.2.0/leaflet-omnivore.min.js'></script>
+      <script src='https://api.tiles.mapbox.com/mapbox.js/plugins/leaflet-heat/v0.1.0/leaflet-heat.js'></script>
+      <script src='https://api.mapbox.com/mapbox.js/plugins/leaflet-markercluster/v0.4.0/leaflet.markercluster.js'></script>
+      <link href='https://api.mapbox.com/mapbox.js/plugins/leaflet-markercluster/v0.4.0/MarkerCluster.css' rel='stylesheet' />
+      <link href='https://api.mapbox.com/mapbox.js/plugins/leaflet-markercluster/v0.4.0/MarkerCluster.Default.css' rel='stylesheet' />
+      <script src='https://api.mapbox.com/mapbox.js/plugins/leaflet-fullscreen/v0.0.4/Leaflet.fullscreen.min.js'></script>
+      <link href='https://api.mapbox.com/mapbox.js/plugins/leaflet-fullscreen/v0.0.4/leaflet.fullscreen.css' rel='stylesheet' />
+   </head>
+   <body>
+
+      <nav id='menu-ui' class='menu-ui'></nav>
+      <div id='map'></div>
+
+      <script>
+
+L.mapbox.accessToken = 'pk.eyJ1IjoiZmFjdWZhcmlhcyIsImEiOiJkTVZ4YnZVIn0.SC6sAHi49GzKTQNerslZWA';
+var map = L.mapbox.map('map',  'mapbox.streets')
+   .setView([41, 2], 5)
+   .addControl(L.mapbox.geocoderControl('mapbox.places', {
+       autocomplete: true
+   })).addControl(L.control.fullscreen());
+
+var layers = document.getElementById('menu-ui');
+
+// The maxZoom states which zoom the markers are fully opaque at -
+// in this case, there are few markers far apart, so we set it low.
+var heat = L.heatLayer([], { maxZoom: 7 });
+
+var clusterGroup = new L.MarkerClusterGroup();
+
+// Omnivore will AJAX-request this file behind the scenes and parse it:
+// note that there are considerations:
+// - The CSV file must contain latitude and longitude values, in column
+//   named roughly latitude and longitude
+// - The file must either be on the same domain as the page that requests it,
+//   or both the server it is requested from and the user's browser must
+//   support CORS.
+var layer = omnivore.csv('es/Airports.csv').on('ready', function(e) {
+
+   // Zoom the map to the bounds of the markers.
+   map.fitBounds(e.target.getBounds());
+
+   e.target.eachLayer(function(layer) {
+       var p = layer.feature.properties,
+             title = p.name,
+             marker = L.marker(layer.getLatLng(), {
+                 icon: L.mapbox.marker.icon({ 'marker-symbol': 'airport', 'marker-color': 'FE4365' }),
+                 title: title
+             });
+
+       marker.bindPopup(
+         L.mapbox.template('<strong class="airport-name">{{name}}</strong><dl class="airport-details">'
+            + '<dt>IATA</dt><dd>{{iata}}</dd><dt>ICAO</dt><dd>{{icao}}</dd>'
+            + '<dt>Time Zone</dt><dd>UTC {{timezone}}</dd>'
+            + '<dt>City</dt><dd>{{city}}</dd><dt>Country</dt><dd>{{country}}</dd>'
+            + '</dl>', p)
+         );
+       
+       // Add each marker point to the cluster group
+       clusterGroup.addLayer(marker);
+       
+       // Add each marker point to the heatmap
+       heat.addLatLng(layer.getLatLng());
+   });
+
+   // Add clusters
+   map.addLayer(clusterGroup);
+ })
+ .on('error', function(error) {
+   console.log(error);
+});
+
+bindToggle(clusterGroup, 'Airports', true);
+bindToggle(heat, 'Heat Map');
+
+function bindToggle(layer, name, active) {
+   // Create a simple layer switcher that
+   // toggles layers on and off.
+   var link = document.createElement('a');
+       link.href = '#';
+       link.className = active? 'active' : '';
+       link.innerHTML = name;
+
+   link.onclick = function(e) {
+       e.preventDefault();
+       e.stopPropagation();
+
+       if (map.hasLayer(layer)) {
+           map.removeLayer(layer);
+           this.className = '';
+       } else {
+           map.addLayer(layer);
+           this.className = 'active';
+       }
+   };
+
+   layers.appendChild(link);
+}
+      </script>
+   </body>
+</html>
